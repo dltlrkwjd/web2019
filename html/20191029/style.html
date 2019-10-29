@@ -4,20 +4,30 @@
 	<meta http-equiv="X-UA-Compatible" content="IE=Edge">
 	<meta charset="UTF-8">
 	<title>css</title>
+	<link rel="stylesheet" href="style.css">
 	<style>
-		/*site color*/
-		body{background-color:skyblue;}
-		h3{color:purple;}
-		hr{border-witdt:5px;
-			border-style:solid;
-			border:5px solid yellow;
-		}
-		span{color:blue;font-size:20px;}
+		div{color:red;} /*tagname*/
+		div.box{color:blue;} /*class name .box{color:blue}*/
+		div#vbox{color:black;} /*id selector*/
 	</style>
 </head>
 <body>
-	<h3>스타일 맛보기	</h3>
-	<hr>
-	<p>Lorem <span>ipsum dolor</span> sit amet.</p>
+	
+	<div>
+		<div>Lorem ipsum.</div>
+		<div>Ullam, totam.</div>
+		<div class="box">Nemo, mollitia.</div>
+		<div>Amet, veritatis.</div>
+		<div>Vel, cum.</div>
+		<div class="box">Voluptate, accusamus.</div>
+		<div>Tempora, quidem.</div>
+		<div>Quos, incidunt.</div>
+		<div class="box" id="vbox">Nostrum, nihil!</div>
+		<div>Iusto, dolorem?</div>
+
+
+		div.box#vbox1>a[#]>{menu}
+		<div class="box" id="vbox1"><a href="#">menu</a></div>
+	</div>
 </body>
 </html>

@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+	<meta http-equiv="X-UA-Compatible" content="IE=Edge">
+	<meta charset="UTF-8">
+	<title>float</title>
+	<style>
+		*{margin: 0;padding: 0;}
+		li{list-style:none}
+		ul{background-color:pink;width: 600px;
+		}
+		ul:after{content:"";display:block;clear:both;}
+		ul > li{
+			float: left;
+			width: 100px;
+			height: 100px;
+			background-color:skyblue;
+		}
+	</style>
+</head>
+<body>
+	<!-- <h1>Lorem.</h1>
+	<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Blanditiis, suscipit.</p> -->
+	<ul class="clearfix">
+			<li>test</li>
+			<li>test</li>
+			<li>test</li>
+			<li>test</li>
+			<li>test</li>
+	</ul>	
+	
+
+
+	<div class="wrap clearfix p10 pt100 mt10">
+		<div class="box">box</div>
+		<div class="box">box</div>
+		<div class="nobox"></div>
+	</div>
+	<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iste nihil illum, nesciunt nisi ab quos quidem delectus temporibus, molestiae magni, officia veritatis. Suscipit eveniet illum, amet modi eius nemo magnam!</p>
+
+	<style>
+		div.boxafter{background-color:gray;}
+		div.boxafter:after{content:"안녕하세요";}
+		div.boxafter:before{content:"이기윤";}
+	</style>
+
+	<div class="boxafter">
+		<h1>Lorem.</h1>
+		<p>test</p>
+	</div>
+
+</body>
+</html>

@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+	<meta http-equiv="X-UA-Compatible" content="IE=Edge">
+	<meta charset="UTF-8">
+	<title>문서 제목</title>
+	<style>
+		*{margin: 0;padding: 0;}
+		li{list-style:none;}
+		a{text-decoration:none;}
+		a:link,a:visited{color:black;}
+
+		header#hd{
+			width: 1000px;height: 100px;
+			margin: 0 auto; position: relative;
+			background-color:white;
+
+		}
+		#hd>h1{background-color:red;width: 100px;line-height: 100px;text-align: center;
+			font-size:2em;}
+		
+		nav.navbar{width: 400px;background-color: pink;position: absolute;top:0;right:0;}
+		nav.navbar>ul:after{content:"";clear:both;display:block;}
+		nav.navbar>ul>li{float: left;width: 80px;}
+		nav.navbar>ul>li>a{
+			display:block;
+			text-align:center;
+			line-height: 40px;
+		}
+		nav.navbar>ul>li>a:hover{background-color:gray; color:red;}
+
+		nav.navbar1{width: 800px;position: absolute;bottom:0;right:0;}
+		nav.navbar1>ul:after{content:"";clear:both;display:block;}
+		nav.navbar1>ul>li{float: left;width: 160px; border-right:1px solid #000;
+			box-sizing: border-box;}
+		/*nav.navbar1>ul>li:first-child{border-left:1px solid #000;}*/
+		nav.navbar1>ul>li:last-child{border-right:none;}
+		nav.navbar1>ul>li>a{
+			display:block;
+			text-align:center;
+			line-height: 40px;
+		}
+		nav.navbar1>ul>li>a:hover{background-color:yellow; color:whit
+	</style>
+</head>
+<body>
+	<header id="hd">
+		<h1>LOGO</h1>
+		<nav class="navbar">
+			<ul>
+				<li><a href="#">menu1</a></li>
+				<li><a href="#">menu2</a></li>
+				<li><a href="#">menu3</a></li>
+				<li><a href="#">menu4</a></li>
+				<li><a href="#">menu5</a></li>
+			</ul>
+		</nav>
+
+		<nav class="navbar1">
+			<ul>
+				<li><a href="#">menu1</a></li>
+				<li><a href="#">menu2</a></li>
+				<li><a href="#">menu3</a></li>
+				<li><a href="#">menu4</a></li>
+				<li><a href="#">menu5</a></li>
+			</ul>
+		</nav>
+	</header>
+</body>
+</html>

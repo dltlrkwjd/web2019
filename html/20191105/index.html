@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+	<meta http-equiv="X-UA-Compatible" content="IE=Edge">
+	<meta charset="UTF-8">
+	<title>background</title>
+	<style>
+		body{
+			background-image: url(../images/img3.jpg);
+			background-repeat: no-repeat; /*repeat-x | repeat-y*/
+			background-position:right center;
+		}
+		.logo{
+			width: 120px;height: 30px;
+			
+
+		}
+		.logo > h1{
+			height: 30px;
+			font-size:1em;
+			background-image: url(../images/naver.png);
+			background-repeat: no-repeat;
+
+		}
+		.logo>h1>a{
+			display:block;line-height:30px;text-align: center;
+			text-indent:-9999px;
+		}
+
+		.button,.button1{background-image: url(../images/naver.png);}
+		.button{
+			width: 56px;height: 20px;
+			/*background-image: url(../images/naver.png);*/
+			background-position: -124px 0px;
+			text-indent:-9999px;
+		}
+		.button:hover{
+			background-position:-124px -23px;
+		}
+		.button1{
+			width: 43px;height: 20px;
+			/*background-image: url(../images/naver.png);*/
+			background-position:-182px 0px;
+			text-indent:-9999px;
+		}
+		.button1:hover{
+			background-position:-182px -46px; 
+		}
+		.bgtest{
+			width: 200px;height: 200px;
+			/*background-image: url(../images/apple.png);
+			background-repeat: no-repeat;
+			background-position:50%;
+			background-color: #ccc;
+			background-size:cover;*/
+
+			background:#ccc url(../images/apple.png) repeat-x center;
+		}
+	</style>
+</head>
+<body>
+	<div class="logo">
+		<h1><a href="#">네이버</a></h1>
+		<div class="button">
+			지식백과
+		</div>
+		<div class="button1">
+			지식인
+		</div>
+	<div class="bgtest">
+		
+	</div>
+
+
+	
+</body>
+</html>

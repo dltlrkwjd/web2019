@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+	<meta http-equiv="X-UA-Compatible" content="IE=Edge">
+	<meta charset="UTF-8">
+	<title>연습용 찌그레기</title>
+	<link rel="stylesheet" href="../css/reset.css">
+	<style>
+	
+
+		header#hd{
+			width: 1000px;height: 200px;
+			background-color:pink;
+			margin: 0 auto;
+			position: relative;
+		}
+
+		#hd>h1{
+			width: 200px;
+			height: 200px;
+			line-height: 200px;
+			background-color: skyblue;
+			color:white;
+			text-align:center;
+
+
+		}
+
+		nav.navbar{
+			width: 800px;
+			background-color: #b6f7c7;
+			position: absolute;
+			right:0; bottom:0;
+		}
+
+		nav.navbar>ul:after{content:"";clear:both;display:block;}
+
+		nav.navbar>ul>li{
+			float: left;
+			width: 160px;
+			font-size:2em;
+			
+		}
+
+		nav.navbar>ul>li>a{
+			display:block;
+			text-align:center;
+			color: white;
+
+		}
+
+		nav.navbar>ul>li>a:hover{background-color: black;color:white;}
+
+		/*nav.navbar1*/
+
+		nav.navbar1
+		{
+			width: 300px;
+			background-color: #b6f7c7;
+			position: absolute; top:0; right:0;
+		}
+
+
+		nav.navbar1>ul:after{content:"";clear:both;display:block;}
+
+		nav.navbar1>ul>li{
+			float: left;
+			width: 75px;
+
+		}
+
+		nav.navbar1>ul>li>a{
+			text-align:center;
+			color:white;
+			display:block;
+			line-height:28px
+		}
+
+		nav.navbar1>ul>li>a:hover{background-color:black;color:white;}
+
+		
+
+
+	</style>
+</head>
+<body>
+	<header id="hd">
+		<h1>MOFASIGN</h1>
+		<nav class="navbar1">
+			<ul>
+					<li><a href="#">MENU1</a></li>
+					<li><a href="#">MENU2</a></li>
+					<li><a href="#">MENU3</a></li>
+					<li><a href="#">MENU4</a></li>					
+			</ul>
+		</nav>
+		<nav class="navbar">
+			<ul>
+					<li><a href="#">MENU1</a></li>
+					<li><a href="#">MENU2</a></li>
+					<li><a href="#">MENU3</a></li>
+					<li><a href="#">MENU4</a></li>
+					<li><a href="#">MENU5</a></li>
+			</ul>
+		</nav>
+
+	</header>
+	
+</body>
+</html>

@@ -3,8 +3,27 @@
 /*header*/
 header#main_header{}
 #main_until{border-bottom:1px solid #ddd;}
-#until_menu{width: 980px;margin: 0 auto;}
-#until_menu ul.until_wrap{float: right;}
-#until_menu ul.until_wrap li{float: left;position: relative;}
-#until_menu ul.until_wrap li
-#until_menu ul.until_wrap li a
+#until_menu{
+	width: 980px;
+	margin: 0 auto;
+	background-color: skyblue;
+}
+#until_menu ul.until_wrap{}
+#until_menu ul.until_wrap li{
+	float: left;
+	padding:0;
+}
+#until_menu ul.until_wrap li a{
+	display:block;line-height:30px;
+	text-align: center;
+}
+h1
+
+
+
+
+
+
+
+
+

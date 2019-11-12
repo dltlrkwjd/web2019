@@ -77,7 +77,6 @@ h1{
 
 
 
-/*visual_wrap*/
 
 #visual{height: 200px;background-color: #eeeeee;margin-bottom: 30px;}
 #visual .visual_wrap{width: 980px; margin: 0 auto;}
@@ -107,11 +106,6 @@ h1{
 	 font-size:12px;
 	 padding-top:5px;
 	}
-
-/*section*/
-#section_header{}
-#section_header .section_icon{}
-.section_icon .section_wrap{}
 
 
 

@@ -29,6 +29,19 @@
 		#sec_wrap .container_wrap{
 			width: 1200px;margin: 0 auto; margin-bottom: 20px;
 		}
+		.container_wrap .conWraper li{position: relative;}
+
+		.container_wrap .prevBtn,
+		.container_wrap .nextBtn{
+			position: absolute;
+			top:45%;
+			cursor:pointer;
+		
+		}
+
+		.container_wrap .prevBtn{left:0;}
+		.container_wrap .nextBtn{right:0;}
+
 		#sec_wrap .container_wrap li{
 			float: left;height: 225px;width: 25%;
 		}
@@ -36,8 +49,20 @@
 
 		
 		#sec_wrap .container_wrap li .slider01 .slider1 .slider1_text{position: absolute;top:85px;
-			left:40px;}
-		#sec_wrap .container_wrap li .slider01 .slider1 .slider1_text>p{color:blue;font-size:2em;}
+			left:80px;}
+		#sec_wrap .container_wrap li .slider01 .slider1 .slider1_text>p{color:#1550b8;font-size:3em;}
+
+		#sec_wrap .container_wrap li .slider01 .slider1 .slider1_text>a{
+			display: block;
+			width: 168px;
+			height: 40px;
+			background-color: #192d4e;
+			color:white;
+			text-align: center;
+			line-height: 40px;
+			font-weight:bold;
+			margin-top: 20px;
+		}
 
 		#sec_wrap .container_wrap li:nth-child(1){
 			width: 75%;height: 450px;background-color: #f00;
@@ -60,9 +85,9 @@
 		}
 		
 
-		#sec_wrap .container_wrap li:nth-child(3){background-color: #00f;}
-		#sec_wrap .container_wrap li:nth-child(4){background-color: #0ff;}
-		#sec_wrap .container_wrap li:nth-child(5){background-color: #ff0;}
+		#sec_wrap .container_wrap li:nth-child(3){background-color: #00163b;}
+		#sec_wrap .container_wrap li:nth-child(4){background-color: #1651b7;}
+		#sec_wrap .container_wrap li:nth-child(5){background-color: #ffffff;}
 		#sec_wrap .container_wrap li:nth-child(6){background-color: #f0f;}
 		#sec_wrap .container_wrap li:nth-child(7){background-color: black;}
 		#sec_wrap .container_wrap li:nth-child(8){background-color: gray;}
@@ -79,7 +104,7 @@
 		}
 
 		.bx-wrapper .bx-pager{
-		    bottom: 30px
+		    bottom: 30px; display:none;
 		}
 		/*common*/
 		.mb10{margin-bottom: 10px !important;}
@@ -99,12 +124,37 @@
 			/*opacity:0.5;*/
 		}
 		a.btn:hover{background-color:rgba(0,0,0,0.1);}
+
+		/*iconWraper*/
+		.iconWriter h3{color:white;padding: 28px 0 0 20px;}
+		#iconHeader{margin: 0 auto;width: 252px;}
+		#iconHeader .iconWraper{float: left;width: 84px;margin-top: 30px;}
+		#iconHeader .iconWraper>img{margin: 0 auto;}
+		#iconHeader .iconWraper .iconWraper01{
+			color:white;
+			text-align: center;
+			display: block;
+			margin-top: 10px;
+			
+		}
+		/*iconBody*/
+		.iconBody>h3{
+			color:white;
+			display: block;width: 252px;margin: 0 auto;
+			border-bottom: 1px solid white;
+			padding: 28px 0 0 20px;
+			padding-bottom:20px;
+		}
 	</style>
+
+
 	<script>
 		// $(document).ready(function(){});
 		$(document).ready(function(){
-			$(".slider01").bxSlider();
-			$(".slider02").bxSlider();
+			var myslider = $(".slider01").bxSlider({auto:true,controls:false});
+			$(".prevBtn").click(function(){myslider.goToPrevSlide()})
+			$(".nextBtn").click(function(){myslider.goToNextSlide()})
+			$(".slider02").bxSlider({auto:true});
 		});
 	</script>
 </head>
@@ -120,18 +170,28 @@
 				</div>
 		</div>
 		<div class="container_wrap">
-			<ul class="clearfix">
-				
-				<li>
+			<ul class="conWraper clearfix">				
+				<li >
+
+					
+
 					<div class="slider01">
+
 						<div class="slider1">
 							<img src="images/main_slide_01.jpg" alt="대학모집">
-							<div class="slider1_text"><p>한국에서<br>시작하는<br>새로운 꿈</p></div>
+							<div class="slider1_text">
+								<p>
+									<b>한국</b>에서<br><b>시작</b>하는<br>새로운 <b>꿈</b>
+								</p>
+								<a href="#">자세히보기 ▶</a>
+							</div>
 
 						</div>
 						<div><img src="images/main_slide_02.jpg" alt="캠퍼스안내"></div>
 						<div><img src="images/main_slide_03.jpg" alt="몰라"></div>
 					</div>
+					<div class="prevBtn"><img src="images/prevBtn.png" alt=""></div>
+					<div class="nextBtn"><img src="images/nextBtn.png" alt=""></div>
 				</li>
 				<li>
 					<div class="banner01">
@@ -147,8 +207,33 @@
 						<a href="#" class="btn">자세히보기 ▶</a>
 					</div>
 				</li>
-				<li></li>
-				<li></li>
+				<li>
+					<div class="iconWriter">
+						<h3>HOT LINK</h3>
+					</div>
+
+					<div id="iconHeader" class="clearfix">
+						<div class="iconWraper">
+							<img src="images/icon_bg1.png" alt="">
+							<p class="iconWraper01">국제교류<br>센터</p>
+						</div>
+						
+						<div class="iconWraper">
+							<img src="images/icon_bg2.png" alt="">
+							<p class="iconWraper01">원격지원<br>시스템</p>
+						</div>
+						
+						<div class="iconWraper">
+							<img src="images/icon_bg3.png" alt="">
+							<p class="iconWraper01">예산/결산<br>공고</p>
+						</div>
+					</div>
+				</li>
+				<li>
+					<div class="iconBody">
+						<h3>공지사항</h3>
+					</div>
+				</li>
 				<li></li>
 				<li></li>
 				<li></li>

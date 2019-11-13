@@ -83,7 +83,7 @@ h1{
 #visual .visual_wrap{width: 980px; margin: 0 auto;}
 .visual_wrap ul li{
 	float: left;
-	width: 196px;height: 196px;
+	width: 196px;height: 200px;
 	padding: 15px;
 }
 .visual_wrap ul li img{display: block;margin: 0 auto;}
@@ -109,9 +109,24 @@ h1{
 	}
 
 /*section*/
-#section_header{}
-#section_header .section_icon{}
-.section_icon .section_wrap{}
+#section_header{
+	width: 980px;
+	margin: 0 auto;
+	margin-bottom: 30px;}
+#section_header li{
+	float: left;
+	width: 310px;
+	margin-right: 25px;}
+#section_header .section_card .section_body{
+	border: 1px solid #ccc;
+	border-top: none;
+	padding:20px 20px;
+}
+#section_header .section_card .section_body h3{margin-bottom: 15px;}
+#section_header .section_card .section_body p{color:gray;}
+#section_header li:last-child{margin-right: 0;}
+#section_header .section_card img{display: block;}
+
 
 
 

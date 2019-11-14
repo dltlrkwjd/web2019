@@ -45,6 +45,7 @@
 		#sec_wrap .container_wrap li{
 			float: left;height: 225px;width: 25%;
 		}
+		/*slider01*/
 		#sec_wrap .container_wrap li .slider01{position: relative;}
 
 		
@@ -88,7 +89,7 @@
 		#sec_wrap .container_wrap li:nth-child(3){background-color: #00163b;}
 		#sec_wrap .container_wrap li:nth-child(4){background-color: #1651b7;}
 		#sec_wrap .container_wrap li:nth-child(5){background-color: #ffffff;}
-		#sec_wrap .container_wrap li:nth-child(6){background-color: #f0f;}
+		#sec_wrap .container_wrap li:nth-child(6){background: url(images/college.jpg) no-repeat center;}
 		#sec_wrap .container_wrap li:nth-child(7){background-color: black;}
 		#sec_wrap .container_wrap li:nth-child(8){background-color: gray;}
 		/*container_foot*/
@@ -104,7 +105,8 @@
 		}
 
 		.bx-wrapper .bx-pager{
-		    bottom: 30px; display:none;
+		    top:0px;
+		    left:380px;
 		}
 		/*common*/
 		.mb10{margin-bottom: 10px !important;}
@@ -145,16 +147,103 @@
 			padding: 28px 0 0 20px;
 			padding-bottom:20px;
 		}
+		/*News_map*/
+		.news_map{position: relative;}
+		.news_map .news_title{
+			padding: 28px 0 0 20px;
+			padding-bottom:20px;
+		}
+		.news_map .news_img1{
+			position: absolute;
+			display: block;
+			width: 115px;height: 80px;
+			left:20px;
+		}
+		.news_map .news_txt{
+			position: absolute;
+			display: block;
+			width: 130px;height: 80px;
+			right:20px;
+		}
+		.news_map .news_txt p{
+			font-size:13px;
+			line-height: 20px;
+		}
+		.news_map .news_img2{
+			position: absolute;
+			width: 129px;height: 30px;
+			display: block;
+			right:20px;top:175px;
+		}
+
+		/*col_map*/
+		.col_body{position: relative;}
+		.col_title{position: absolute;
+			width: 300px;height: 52px;
+			display: block;
+			background-color: #000;
+			text-align: center;
+			top:175px;
+			opacity:0.7;
+
+
+		}
+		.col_title a{
+			color:white;
+			line-height: 50px;
+			font-style: bold;
+		}
+
+		/*slider02*/
+
+		.slider02_head{position: relative;}
+		.slider02_head .slider02{}
+		.slider02_head .slider02_txt{
+			position: absolute;
+			width: 600px;height: 100px;
+			padding:30px;
+			top:0px;
+		}
+		.slider02_head .slider02_txt p{
+			color:#ff4538;
+			font-size:30px;
+		}
+		.slider02_head .slider02_txt p>span{
+			position: absolute;
+			font-size:60px;
+			top:60px;
+
+		}
+		.slider02_head .slider02_txt a{
+			position: absolute;
+			width: 170px;height: 40px;
+			text-align: center;
+			line-height: 40px;
+			background-color: #ff4538;
+			top:150px;
+			color:white;
+			opacity: 0.8;
+		}
+		.secFooter{
+			background-color: #fff;
+			width: 1200px;height: 60px;
+			margin: 0 auto;
+		}
+		.secFooter li{float: left;}
+		.secFooter li.secFooter_txt1{width: 300px;height: 60px;background-color: pink;text-align: center;line-height: 60px;}
+		.secFooter li.secFooter_txt2{width: 900px;height: 60px;background-color: skyblue;}
+		
+
 	</style>
 
 
 	<script>
 		// $(document).ready(function(){});
 		$(document).ready(function(){
-			var myslider = $(".slider01").bxSlider({auto:true,controls:false});
+			var myslider = $(".slider01").bxSlider({auto:true,controls:false,pager:false});
 			$(".prevBtn").click(function(){myslider.goToPrevSlide()})
 			$(".nextBtn").click(function(){myslider.goToNextSlide()})
-			$(".slider02").bxSlider({auto:true});
+			$(".slider02").bxSlider({auto:true,controls:false});
 		});
 	</script>
 </head>
@@ -234,20 +323,60 @@
 						<h3>공지사항</h3>
 					</div>
 				</li>
-				<li></li>
-				<li></li>
+				<li>
+					<div class="news_map">
+						<div class="news_title"><h3>SNS NEWS</h3></div>
+						<div class="news_img1"><img src="images/news_icon.jpg" alt=""></div>
+						<div class="news_txt"><p>한국 대학교는<br>2017학년도 신입생<br>입학식을 3월 2일(목)<br>본교 종합체육관 ...</p></div>
+						<div class="news_img2"><img src="images/news_icon1.png" alt=""></div>
+					</div>
+				</li>
+				<li>
+					<div class="col_body">
+						<div class="col_title">
+							<a href="#">캠퍼스투어</a>
+						</div>
+					</div>
+
+				</li>
 				<li></li>
 				<li>
-					<div class="slider02">
-						<div><img src="images/main_slide1_01.jpg" alt="대학교"></div>
-						<div><img src="images/main_slide1_01.jpg" alt="대학교"></div>
-						<div><img src="images/main_slide1_01.jpg" alt="대학교"></div>
+					<div class="slider02_head">
+						<div class="slider02">
+								<div><img src="images/main_slide1_01.jpg" alt="대학교"></div>
+								<div><img src="images/main_slide1_01.jpg" alt="대학교"></div>
+								<div><img src="images/main_slide1_01.jpg" alt="대학교"></div>
+								<div><img src="images/main_slide1_01.jpg" alt="대학교"></div>
+						</div>
+						<div class="slider02_txt">
+								<p>
+									2017년 신·편입생2차 모집<br>
+									<span><b>2017.7.1~7.10</b></span>
+								</p>
+								<a href="#">입학사전예약 ▶</a>
+						</div>
 					</div>
 				</li>
 				
 			</ul>
 		</div>
-	
+		<div class="secFooter">
+			<ul class="clearfix">
+				<li class="secFooter_txt1">
+					학사일정
+
+				</li>
+				<li class="secFooter_txt2">
+					<div class="sFt"><h3>2016 - 1학기 성적 열람 및 상담 신청</h3></div>
+					<div class="sFt"><p>성적열람및 상담신청은 본인이 수강한 교과목 설문조사를 모두 마친 후 확인이...</p></div>
+
+				</li>
+			</ul>
+		</div>
 	</section>
+	<!-- footer -->
+	<footer>
+		
+	</footer>
 </body>
 </html>

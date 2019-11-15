@@ -12,8 +12,15 @@
 
 
 	<style>
+
+		#hd{width: 100%;height: 160px;}
+		#hd .hd_section{background-color: blue;width: 100%;height: 40px;}
+		#hd .hd_section .hd_body{background-color: pink;width: 1200px;height: 40px;margin: 0 auto;}
+		#hd .hd_section .hd_body {background-color: pink;width: 1200px;height: 40px;margin: 0 auto;}
+		
 		#sec_wrap{
 			background: #558fce url(images/main_bg01.jpg) no-repeat center;
+			padding-bottom:40px;
 		}
 
 		/*content_wrap*/
@@ -224,16 +231,92 @@
 			color:white;
 			opacity: 0.8;
 		}
+
+		/*secfooter*/
 		.secFooter{
 			background-color: #fff;
 			width: 1200px;height: 60px;
 			margin: 0 auto;
+
 		}
 		.secFooter li{float: left;}
-		.secFooter li.secFooter_txt1{width: 300px;height: 60px;background-color: pink;text-align: center;line-height: 60px;}
-		.secFooter li.secFooter_txt2{width: 900px;height: 60px;background-color: skyblue;}
-		
+		.secFooter li.secFooter_txt1{
+			width: 300px;
+			height: 60px;
+			background-color: white;
+			text-align: center;
+			padding:20px;
+			border-right: 1px solid #6b6b6b;
+			border-style: bold;
+			font-weight: bold;
+		}
 
+		.secFooter li.secFooter_txt2{width: 900px;height: 60px;background-color: white;}
+
+		.secFooter li.secFooter_txt2 .sft_title{position: relative;}
+
+		.secFooter li.secFooter_txt2 .sft_title .sFt1{
+			width: 300px;
+			height: 60px;
+			background-color: white;
+			position: absolute;
+			left:0;
+
+		}
+		.secFooter li.secFooter_txt2 .sft_title .sFt2{
+			width: 600px;
+			height: 60px;
+			background-color: white;
+			position: absolute;
+			right:10px;
+		}
+		.secFooter li.secFooter_txt2 .sft_title .sFt3{
+			width: 40px;
+			height: 59px;
+			position: absolute;
+			right:0;
+			top:0;
+
+		}
+
+
+		.secFooter li.secFooter_txt2 .sft_title .sFt1 h3{font-size:15px;color:#6b6b6b;text-align: center;line-height: 60px;}
+		.secFooter li.secFooter_txt2 .sft_title .sFt2 p{color: #6b6b6b;text-align: center;line-height: 60px;font-size:14px;}
+		.secFooter li.secFooter_txt2 .sft_title .sFt3 img{display: block;border-bottom: 1px solid #fff;}
+		.secFooter li.secFooter_txt2 .sft_title .sFt3 img:last-child{border-bottom:none;}
+		
+		/*imgBg*/
+
+		.imgBg{width: 300px;height: 225px;position: relative;}
+		.imgBg .imgBtn{
+			position: absolute;
+			width: 65px;height: 65px;
+			bottom: 70px;
+			left:115px;
+			opacity:0.7;
+
+		}
+		
+		/*footer*/
+		footer{}
+		footer .footer_body{width: 1200px;height: 165px;background-color: white;margin: 0 auto;padding-top:30px;}
+		footer .footer_body .footer_body2{}
+		footer .footer_body .footer_body2 .footer_txt{width: 1200px;background-color: skyblue;}
+		footer .footer_body .footer_body2 .footer_txt div{
+			position: relative;
+			width: 200px;
+			float: left;
+			background-color: white;
+			border-right: 1px solid black;
+			margin-bottom: 20px;
+			text-align: center;
+
+		}
+		footer .footer_body .footer_body2 .footer_txt div:after{content:"";
+		display: block;
+		width: 1px;height: 1px;position: absolute;top:10px;}
+		footer .footer_body .footer_body2 .footer_txt div:last-child{}
+		
 	</style>
 
 
@@ -244,10 +327,35 @@
 			$(".prevBtn").click(function(){myslider.goToPrevSlide()})
 			$(".nextBtn").click(function(){myslider.goToNextSlide()})
 			$(".slider02").bxSlider({auto:true,controls:false});
+			$(".sFt2").bxSlider({auto:true,controls:false,pager:false});
 		});
 	</script>
 </head>
 <body>
+	<header id="hd">
+		<div class="hd_section">
+			<div class="hd_body">
+				<div class="hd_box1">
+					<li>대학교</li>
+					<li>입학안내</li>
+					<li>대학원</li>
+				</div>
+				<div class="hd_box2">
+					<li>글자크기</li>
+					<li>이미지</li>
+					<li>찾아오시는길</li>
+					<li>ENGLISH</li>
+					<li>사이트맵</li>
+				</div>
+			</div>
+			<div class="hd_body2">
+				<div class="hd_box3"></div>
+				<div class="hd_box4"></div>
+			</div>
+		</div>
+	</header>
+
+
 	<section id="sec_wrap">
 		<div class="con_wrap clearfix">
 				<div class="title">
@@ -339,7 +447,12 @@
 					</div>
 
 				</li>
-				<li></li>
+				<li>
+					<div class="imgBg">
+						<div><img src="images/imgbg.jpg" alt=""></div>
+						<div class="imgBtn"><img src="images/imgbtn.png" alt=""></div>
+					</div>
+				</li>
 				<li>
 					<div class="slider02_head">
 						<div class="slider02">
@@ -367,16 +480,43 @@
 
 				</li>
 				<li class="secFooter_txt2">
-					<div class="sFt"><h3>2016 - 1학기 성적 열람 및 상담 신청</h3></div>
-					<div class="sFt"><p>성적열람및 상담신청은 본인이 수강한 교과목 설문조사를 모두 마친 후 확인이...</p></div>
-
+					<div class="sft_title">
+						<div class="sFt1"><h3>2016 - 1학기 성적 열람 및 상담 신청</h3></div>
+						<div class="sFt2">
+							<p>성적열람및 상담신청은 본인이 수강한 교과목 설문조사를 모두 마친 후 확인이...</p>
+							<p>성적열람및 상담신청은 본인이 수강한 교과목 설문조사를 모두 마친 후 확인이...</p>
+						</div>
+						<div class="sFt3">
+							<div class="stfbtn">
+								<img src="images/scroll_btn1.jpg" alt="">
+							</div>
+							<div class="stfbtn2">
+								<img src="images/scroll_btn2.jpg" alt="">
+							</div>
+						</div>
+					</div>
 				</li>
 			</ul>
 		</div>
 	</section>
 	<!-- footer -->
 	<footer>
-		
+		<ul class="footer_body">
+			<li class="footer_body2 ">
+				<div class="footer_txt">
+					<div>회사소개</div>
+					<div>한국대학교</div>
+					<div>개인정보취급방침</div>
+					<div>이용정책</div>
+					<div>입점/제휴문의 및 광고</div>
+					<div>이메일 무단수집거부</div>
+				</div>
+			</li>
+			<li>
+				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Magnam, dolorem accusantium facere, dolores alias, deleniti quis magni tempora ducimus adipisci sequi distinctio sint. Reiciendis asperiores similique, saepe fugiat deserunt quis!</p>
+				<h3>Lorem ipsum dolor sit amet.</h3>
+			</li>
+		</ul>
 	</footer>
 </body>
 </html>

@@ -6,30 +6,71 @@
 	<title>문서 제목</title>
 	<link rel="stylesheet" href="css/reset.css">
 	<link rel="stylesheet" href="css/jquery.bxslider.css">
+	<link rel="stylesheet" href="css/colorbox.css">
 
 	<script src="js/jquery-3.1.1.min.js"></script>
 	<script src="js/jquery.bxslider.js"></script>
+	<script src="js/jquery.colorbox-min.js"></script>
 
 
 	<style>
 
 		#hd{width: 100%;height: 160px;}
-		#hd .hd_section{background-color: blue;width: 100%;height: 40px;}
-		#hd .hd_section .hd_body{background-color: pink;width: 1200px;height: 40px;margin: 0 auto;}
-		#hd .hd_section .hd_body {background-color: pink;width: 1200px;height: 40px;margin: 0 auto;}
+		#hd .hd_section{background-color: #0044af;width: 100%;height: 40px;}
+		#hd .hd_section .hd_body{background-color: #0044af;;width: 1200px;height: 40px;margin: 0 auto;position: relative;}
+		#hd .hd_section .hd_body .hd_box1{}
+		#hd .hd_section .hd_body .hd_box1 li{}
+		#hd .hd_section .hd_body .hd_box1 li a{
+			background-color: #00163b;
+			color:white;
+			display: block;
+			width: 150px;
+			height: 40px;
+			float: left;
+			text-align: center;
+			line-height: 35px;
+			border-right: 2px solid #0044af;
+		}
+		#hd .hd_section .hd_body .hd_box1 li a:hover{background-color: white;color:black;}
+
+		#hd .hd_section .hd_body .hd_box2{position: absolute;top:0;right:0;}
+		#hd .hd_section .hd_body .hd_box2 li {}
+		#hd .hd_section .hd_body .hd_box2 li a{
+			background-color: #0044af;
+			float: left;display: block;
+			width: 70px;
+			height: 40px;
+			color:white;
+			text-align: center;
+			line-height: 40px;
+			font-size:12px;
+		}
+		#hd .hd_section .hd_body .hd_box2 li a img{margin: 0 auto;position: absolute;top:13px;right:230px;}
 		
 		#sec_wrap{
 			background: #558fce url(images/main_bg01.jpg) no-repeat center;
 			padding-bottom:40px;
 		}
-
+		#hd .hd_section .hd_body2{background-color: white;;width: 1200px;height: 120px;margin: 0 auto;position: relative;}
+		#hd .hd_section .hd_body2 .hd_box3{}
+		#hd .hd_section .hd_body2 .hd_box3 li {width: 230px;height: 120px;background-color: #fff; position: absolute;left: 0;}
+		#hd .hd_section .hd_body2 .hd_box3 .box3body{position: absolute;right:0;top:30px;}
+		#hd .hd_section .hd_body2 .hd_box3 li img{float: left;position: absolute;left:0;top:25px;}
+		#hd .hd_section .hd_body2 .hd_box3 li h3{color:#9b9b9b; text-align: left;font-size:28px;border-bottom: 1px solid #d2d2d2;}
+		#hd .hd_section .hd_body2 .hd_box3 li p{text-align: left;color:#9b9b9b;}
+		
+		#hd .hd_section .hd_body2 .hd_box4{width: 680px;height: 120px;background-color: white;position: absolute;right: 0;}
+		#hd .hd_section .hd_body2 .hd_box4 li {}
+		#hd .hd_section .hd_body2 .hd_box4 li img{position: absolute;right:0;top:40px;}
+		#hd .hd_section .hd_body2 .hd_box4 li a{float: left;display: block;width: 113.33px;line-height: 120px;} 
+		
 		/*content_wrap*/
-		#sec_wrap .con_wrap{width: 1200px;height: 260px;margin: 0 auto;
+		#sec_wrap .con_wrap{width: 1200px;height: 260px;margin: 0 auto;position: relative;
 		color:white;
 		 padding-top: 75px;}
 		#sec_wrap .con_wrap div.title{float: left;}
-		#sec_wrap .con_wrap div.title>span{font-size:2em;}
-		#sec_wrap .con_wrap div.title>h3{font-size:3em;}
+		#sec_wrap .con_wrap div.title>span{font-size:45px;}
+		#sec_wrap .con_wrap div.title>h3{font-size:55px;}
 		#sec_wrap .con_wrap div.con_icon{float: left;}
 
 		/*container_wrap*/
@@ -112,8 +153,8 @@
 		}
 
 		.bx-wrapper .bx-pager{
-		    top:0px;
-		    left:380px;
+		    bottom:33px;
+		    left:auto;
 		}
 		/*common*/
 		.mb10{margin-bottom: 10px !important;}
@@ -154,6 +195,13 @@
 			padding: 28px 0 0 20px;
 			padding-bottom:20px;
 		}
+		.iconbody1{
+			color:white;
+			 font-size:12.5px;
+			 margin-top: 15px;
+		}
+		.iconbody1>div{line-height: 30px;margin-left: 25px;}
+		.iconbody1>div>span{float: right;margin-right: 25px;}
 		/*News_map*/
 		.news_map{position: relative;}
 		.news_map .news_title{
@@ -200,6 +248,13 @@
 			line-height: 50px;
 			font-style: bold;
 		}
+
+		.con_icon{}
+		.con_icon .icon_body {position: absolute;right: 0px;}
+		.con_icon .icon_body .icon_card {display: block;float: left;padding: 10px;}
+		.con_icon .icon_body .icon_card a{display: block;text-align: center;margin-top: 5px;}
+		.con_icon .icon_body .icon_card img{display: block;margin: 0 auto;}
+		.con_icon a{color:white;}
 
 		/*slider02*/
 
@@ -282,8 +337,9 @@
 
 		.secFooter li.secFooter_txt2 .sft_title .sFt1 h3{font-size:15px;color:#6b6b6b;text-align: center;line-height: 60px;}
 		.secFooter li.secFooter_txt2 .sft_title .sFt2 p{color: #6b6b6b;text-align: center;line-height: 60px;font-size:14px;}
-		.secFooter li.secFooter_txt2 .sft_title .sFt3 img{display: block;border-bottom: 1px solid #fff;}
+		.secFooter li.secFooter_txt2 .sft_title .sFt3 img{display: block;border-bottom: 1px solid #fff;cursor: pointer;}
 		.secFooter li.secFooter_txt2 .sft_title .sFt3 img:last-child{border-bottom:none;}
+		
 		
 		/*imgBg*/
 
@@ -323,12 +379,26 @@
 	<script>
 		// $(document).ready(function(){});
 		$(document).ready(function(){
-			var myslider = $(".slider01").bxSlider({auto:true,controls:false,pager:false});
+			$(".youtube").colorbox({
+				iframe:true,
+				innerWidth:"560px",
+				innerHeight:"315px"
+			});
+			var myslider = $(".slider01").bxSlider({auto:true,controls:false});
 			$(".prevBtn").click(function(){myslider.goToPrevSlide()})
 			$(".nextBtn").click(function(){myslider.goToNextSlide()})
-			$(".slider02").bxSlider({auto:true,controls:false});
-			$(".sFt2").bxSlider({auto:true,controls:false,pager:false});
+
+			 $(".slider02").bxSlider({auto:true,controls:false});
+			var seongmin = $(".sFt2").bxSlider({auto:true,controls:false,pager:false,mode:'vertical'});
+			$(".stfbtn").click(function(){
+				seongmin.goToPrevSlide();
+			});
+			$(".stfbtn2").click(function(){
+				seongmin.goToNextSlide();
+			});
+			
 		});
+
 	</script>
 </head>
 <body>
@@ -336,34 +406,78 @@
 		<div class="hd_section">
 			<div class="hd_body">
 				<div class="hd_box1">
-					<li>대학교</li>
-					<li>입학안내</li>
-					<li>대학원</li>
+					<li>
+						<a href="#">대학교</a>
+						<a href="#">입학안내</a>
+						<a href="#">대학원</a>
+					</li>
+					
 				</div>
 				<div class="hd_box2">
-					<li>글자크기</li>
-					<li>이미지</li>
-					<li>찾아오시는길</li>
-					<li>ENGLISH</li>
-					<li>사이트맵</li>
+					<li>
+						<a href="">글자크기</a>
+						<a href=""><img src="images/btn.jpg" alt=""></a>
+						<a href="">찾아오시는길</a>
+						<a href="">ENGLISH</a>
+						<a href="">사이트맵</a>
+					</li>
+					
 				</div>
 			</div>
 			<div class="hd_body2">
-				<div class="hd_box3"></div>
-				<div class="hd_box4"></div>
+				<div class="hd_box3">
+					<li>
+						<img src="images/haguk.png" alt="">
+
+						<div class="box3body">
+							<h3>한국대학교</h3>
+							<p>HANGUK UNIVERCITY</p>
+						</div>
+					</li>
+				</div>
+				<div class="hd_box4">
+					<li>
+						<a href="#">대학소개</a>
+						<a href="#">학과소개</a>
+						<a href="#">학사안내</a>
+						<a href="#">대학생활</a>
+						<a href="#">학생지원센터</a>
+						<a href="#"><img src="images/hagukicon.png" alt=""></a>
+					</li>
+				</div>
 			</div>
 		</div>
 	</header>
 
 
 	<section id="sec_wrap">
-		<div class="con_wrap clearfix">
+		<div class="con_wrap">
 				<div class="title">
 					<span>함께 나누며 세상을 이끌어</span>
 					<h3>세계로향하는 한국대학교</h3>
 				</div>
 				<div class="con_icon">
-					
+					<div class="icon_body">
+						<div class="icon_card">
+							<img src="images/icon1.png" alt="">
+							<a href="#">입학절차안내</a>
+						</div>
+						
+						<div class="icon_card">
+							<img src="images/icon2.png" alt="">
+							<a href="#">입학설명회</a>
+						</div>
+						
+						<div class="icon_card">
+							<img src="images/icon3.png" alt="">
+							<a href="#">장학제도</a>
+						</div>
+						
+						<div class="icon_card">
+							<img src="images/icon4.png" alt="">
+							<a href="#">증명서발급</a>
+						</div>
+					</div>
 				</div>
 		</div>
 		<div class="container_wrap">
@@ -385,6 +499,7 @@
 
 						</div>
 						<div><img src="images/main_slide_02.jpg" alt="캠퍼스안내"></div>
+						<div><img src="images/main_slide_03.jpg" alt="몰라"></div>
 						<div><img src="images/main_slide_03.jpg" alt="몰라"></div>
 					</div>
 					<div class="prevBtn"><img src="images/prevBtn.png" alt=""></div>
@@ -430,6 +545,13 @@
 					<div class="iconBody">
 						<h3>공지사항</h3>
 					</div>
+					<div class="iconbody1">
+							<div>· [공지] 한국대학교 웹진 <span>2016-06-12</span> </div>
+							<div>· [보도] 우수대학교 선정 수상 <span>2016-06-12</span></div>
+							<div>· [공지] 대학입시 설명회 <span>2016-06-12</span> </div>
+							<div>· [공지] 2016년 1학기 성적...<span>2016-06-12</span> </div>
+						
+					</div>
 				</li>
 				<li>
 					<div class="news_map">
@@ -450,7 +572,8 @@
 				<li>
 					<div class="imgBg">
 						<div><img src="images/imgbg.jpg" alt=""></div>
-						<div class="imgBtn"><img src="images/imgbtn.png" alt=""></div>
+						<div class="imgBtn"><a href="https://www.youtube.com/embed/xxuutpeG6NI" class="youtube" title="영상"><img src="images/imgbtn.png"alt=""></a></div>
+						
 					</div>
 				</li>
 				<li>

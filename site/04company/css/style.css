@@ -1,0 +1,30 @@
+@charset"utf-8";
+
+
+/*header*/
+#hd
+.hd_header{
+	width: 1260px;
+	height: 120px;
+	background-color: gold;
+	margin: 0 auto;
+	position: relative;
+}
+.hd_header h1{
+	display: block;
+	
+	text-align: left;
+	line-height: 120px;
+	font-size:2em;
+	font-weight: normal;
+}
+.hd_header ul{position: absolute;bottom:50px;right:0;}
+.hd_header ul>li{
+	text-align: center;
+	display: block;
+	width:150px;
+	float:left;
+	background-color: pink;
+
+}
+.hd_header ul>li>a>img{position: absolute;bottom:-15px;right: 0;}

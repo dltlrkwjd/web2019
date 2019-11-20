@@ -6,24 +6,120 @@
 	<title>기업 홈페이지</title>
 	<link rel="stylesheet" href="css/reset.css">
 	<link rel="stylesheet" href="css/style.css">
+	<link rel="stylesheet" href="css/jquery.bxslider.css">
+	<link rel="stylesheet" href="css/colorbox.css">
+
+	<script src="js/jquery-3.1.1.min.js"></script>
+	<script src="js/jquery.bxslider.js"></script>
+	<script src="js/jquery.colorbox-min.js"></script>
+
+	<script>
+		$(document).ready(function(){
+
+			var mySlider = $(".slider").bxSlider({auto:true,controls:false});
+			$(".prevBtn").click(function(){
+				mySlider.goToPrevSlide()
+			});
+			$(".nextBtn").click(function(){
+				mySlider.goToNextSlide();
+			});
+
+		});
+
+			
+		
+	</script>
+
+
+
+	
 </head>
 <body>
 	<!-- header -->
 	<div id="hd">
-		<div class="hd_header">
-			<h1>ALBA</h1>
+		<div class="hd_head">
+			<div class="hd_header">
+				<h1>ALBA</h1>
+				<ul>
+					<li><a href="#">COLLECTION</a></li>
+					<li><a href="#">BRAND CONCEPT</a></li>
+					<li><a href="#">NEWS</a></li>
+					<li><a href="#">STORE LOCATION</a></li>
+					<li><a href="#">SUPPORT</a></li>
+					<li><a href="#">REVIEW</a></li>
+					<li><a href="#"><img src="images/hdimg.png" alt=""></a></li>
+				</ul>
+			</div>
+		</div>
+	</div>
+	<div class="main_img">
+		<ul class="slider">
+			<li>
+				<img src="images/main_01.jpg" alt="">
+			</li>
+			<li>
+				<img src="images/main_02.jpg" alt="">
+			</li>
+			<li>
+				<img src="images/main_03.jpg" alt="">
+			</li>
+		</ul>
+
+		<div class="visual">
+			<div class="prevBtn"><img src="images/prevBtn.png" alt=""></div>
+			<div class="nextBtn"><img src="images/nextBtn.png" alt=""></div>
+		</div>
+	</div>
+
+	<!-- section -->
+
+	<div id="section">
+		<div class="section_containor">
 			<ul>
-				<li><a href="#">COLLECTION</a></li>
-				<li><a href="#">BRAND CONCEPT</a></li>
-				<li><a href="#">NEWS</a></li>
-				<li><a href="#">STORE LOCATION</a></li>
-				<li><a href="#">SUPPORT</a></li>
-				<li><a href="#">REVIEW</a></li>
-				<li><a href="#"><img src="images/hdimg.png" alt=""></a></li>
+				<li></li>
+				<li></li>
+				<li></li>
+				<li></li>
+				<li></li>
+				<li></li>
+				<li></li>
+				<li></li>
+				<li></li>
+				<li></li>
+				<li></li>
+				<li></li>
 			</ul>
 		</div>
 	</div>
 
+	<!-- section_footer -->
+
+	<div class="section_img">
+		<img src="images/section_img.jpg" alt="">
+		<h3>Alba. Let the light shine on!</h3>
+		<p>ALBA의 어원은 ‘여명’ 을 뜻하는 고대어로 근래에 이르러<br>‘빛과 희망, 새로운 시작’ 이라는 뜻으로 사용되는 라틴어 입니다.</p>
+	</div>
 	<!-- footer -->
+
+	<div id="ft">
+		<div class="ft_footer">
+			<h1>ALBA</h1>
+			<ul>
+				<li><a href="#">회사소개</a></li>
+				<li><a href="#">개인정보</a></li>
+				<li><a href="#">이용약관</a></li>
+				<li><a href="#">고객센터</a></li>
+				<li><a href="#">상담문의</a></li>
+				<li><a href="#">사이트맵</a></li>				
+			</ul>
+			<div>
+				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit <br>
+					Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odio libero veniam, quod, illo voluptas dolorem. <br>
+				    Lorem ipsum dolor sit amet.
+				</p>
+			</div>
+			<div class="footer_box"><a href="#">FAMILY SATE</a></div>
+		</div>
+	</div>
 </body>
 </html>

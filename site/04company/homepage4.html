@@ -15,6 +15,11 @@
 
 	<script>
 		$(document).ready(function(){
+			$(".youtube").colorbox({
+				iframe:true,
+				innerWidth:"560px",
+				innerHeight:"315px"
+			});
 
 			var mySlider = $(".slider").bxSlider({auto:true,controls:false});
 			$(".prevBtn").click(function(){
@@ -65,10 +70,16 @@
 			</li>
 		</ul>
 
+		<div class="slider_txt">
+			<h3>Alba. Let the light shine on!</h3>
+			<p>ALBA의 어원은 ‘여명’ 을 뜻하는 고대어로 근래에 이르러<br>‘빛과 희망, 새로운 시작’ 이라는 뜻으로 사용되는 라틴어 입니다.</p>
+		</div>
+
 		<div class="visual">
 			<div class="prevBtn"><img src="images/prevBtn.png" alt=""></div>
 			<div class="nextBtn"><img src="images/nextBtn.png" alt=""></div>
 		</div>
+
 	</div>
 
 	<!-- section -->
@@ -76,11 +87,76 @@
 	<div id="section">
 		<div class="section_containor">
 			<ul>
+				<li>
+					<div class="containor_box1">
+						<img src="images/section_icon01.png" alt="">
+						<a href="#">NEWS</a>
+					</div>
+				</li>
+				<li>
+					<div class="play_button"><a href="https://www.youtube.com/embed/vuANa8kUoXQ" class="youtube" title="영상"><img src="images/play_button.png"alt=""></a></div>
+				</li>
 				<li></li>
+				<li>
+					<div class="containor_box4">
+						<img src="images/section_icon02.png" alt="">
+						<a href="#">COLLECTION</a>
+					</div>
+				</li>
+				<li>
+					<div class="containor_box5">
+						<img src="images/section_icon03.png" alt="">
+						<a href="#">BRAND CONCEPT</a>
+					</div>
+				</li>
+				<li>
+					<div class="containor_box6">
+						<p>WHO WE ARE</p>
+						<h3>ALBA. LET THE LIGHT <br> SHINE ON!</h3>
+					</div>
+				</li>
+				<li>
+					<div class="containor_box7">
+						<p>ALBA.</p>
+						<h3>다양한 컬렉션으로 <br>구성되어있지만 <br> 개성 넘치는 디자인 <br> 뛰어난 품질 <br> 그리고 합리적인 가격 <br> 이라는 세 가지 요소를 공통적으로 갖추고 있습니다.</h3>
+					</div>
+				</li>
+				<li>
+					<div class="containor_box8">
+						<h3>서비스센터 안내</h3>
+						<p>ALBA 시계의 수리가 필요하시면, 구입하신 ALBA 정식 매장이나 ALBA 서비스 센터로 문의해 주시기 바랍니다.또한 2년에 한번 ALBA 서비스 센터에 방문하여 내장된 무브먼트의 상태나 제품의 방수 상태를 점검하시어 사용하시면 ALBA 시계를 더욱 오랫동안 사용하실 수 있습니다.AS시계의 신속한 처리와 기술적인 제한에 의하여 접수하신 센터 이외의 센터로 배정될 수 있는 점, 참고 부탁 드립니다.</p>
+				</li>
+				<li>
+					<div class="containor_box9">
+						<img src="images/section_icon04.png" alt="">
+						<a href="#">SUPPORT</a>
+					</div>
+				</li>
+				<li>
+					<div class="containor_box10">
+						<img src="images/section_icon05.png" alt="">
+						<a href="#">REVIEW</a>
+					</div>
+				</li>
 				<li></li>
-				<li></li>
-				<li></li>
-				<li></li>
+				
+			</ul>
+		</div>
+	</div>
+
+	<!-- section_footer -->
+
+	<div class="section_img">
+		<img src="images/section_img.jpg" alt="">
+		<h3>ALBA WATCHES</h3>
+		<p>SEE IT STYLED ON FACEBOOK</p>
+	</div>
+
+	<!-- body_section -->
+
+	<div id="body_section">
+		<div class="body_containor">
+			<ul>
 				<li></li>
 				<li></li>
 				<li></li>
@@ -91,14 +167,18 @@
 			</ul>
 		</div>
 	</div>
+	
+	<!-- body_footer -->
 
-	<!-- section_footer -->
-
-	<div class="section_img">
-		<img src="images/section_img.jpg" alt="">
-		<h3>Alba. Let the light shine on!</h3>
-		<p>ALBA의 어원은 ‘여명’ 을 뜻하는 고대어로 근래에 이르러<br>‘빛과 희망, 새로운 시작’ 이라는 뜻으로 사용되는 라틴어 입니다.</p>
+	<div id="body_footer">
+		<div class="body_containor2">
+			<ul>
+				<li></li>
+				<li></li>
+			</ul>
+		</div>
 	</div>
+
 	<!-- footer -->
 
 	<div id="ft">

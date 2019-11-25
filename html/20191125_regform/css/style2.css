@@ -1,0 +1,16 @@
+@charset "utf-8";
+
+#wrap{
+	width: 460px;
+	margin: 0 auto;
+}
+#header{background-color: #ccc;}
+#header h1.logo{
+	width: 240px;
+	background:url(../images/pc_sp_join.png) no-repeat 0 100%; 
+	margin: 0 auto;
+}
+#header a{
+	display: block;
+	height: 44px;
+	text-indent:-9999px;

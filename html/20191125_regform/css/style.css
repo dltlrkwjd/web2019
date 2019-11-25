@@ -1,0 +1,79 @@
+@charset "utf-8";
+fieldset{border:0;}
+.blind,legend{
+	display: block;position: absolute;
+	top:-9999px;left: 0;
+}
+
+body{background-color: #cdcdcd;}
+#wrap{
+	width: 460px;
+	margin: 0 auto;
+}
+#header{background-color: #fff;padding:60px 0 65px 0;}
+#header h1.logo{
+	width: 240px;	
+	background:url(../images/pc_sp_join.png) no-repeat 0 100%;
+	margin: 0 auto;
+}
+#header a{
+	display: block;
+	height: 44px;
+	text-indent:-9999px;
+
+}
+.containor fieldset{
+	border: 1px solid #ddd;
+	background-color: #fff;
+	margin-bottom: 10px;
+}
+.containor .field{
+	border-bottom:1px solid #f0f0f0;
+	position: relative;
+}
+.containor .inp-field{
+	width: 350px;height: 49px;
+	border:0 none;color:#999;
+	font-size:14px;
+	text-indent:12px;
+}
+.containor .ico{
+	display: block;
+	width: 97px;height: 48px;
+	background:url(../images/ico_join3.png) no-repeat; 
+	position: absolute;
+	top:0;right: 10px;
+	text-indent:-9999px;
+}
+.containor .ico.mail{background-position:0 -47px;}
+.containor .ico.pass{background-position:0 -466px;}
+.containor .ico.pass2{background-position:0 -515px;}
+
+
+.containor .field.radio{
+	position: relative;
+	height: 49px;
+}
+.containor .field.radio input{
+	position: relative;
+	left: 20px;top: 10px;
+}
+.containor .field.radio label{
+	position: absolute;
+	display: block;
+	width: 212px;height: 31px;
+	text-align: center;
+	line-height: 31px;
+	border: 1px solid #ccc;
+	background-color: #fff;
+	top:8px;
+	z-index:1;
+	cursor: pointer;
+}
+.containor .field.radio label.male{left: 15px;}
+.containor .field.radio label.female{right: 15px;}
+
+
+
+
+.w458{width: 458px !important}

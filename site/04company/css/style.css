@@ -61,7 +61,7 @@
 	_background-color: pink;
 
 }
-.hd_header ul>li>a{color:white;}
+.hd_header ul>li>a{color:white;font-weight: bold;}
 .hd_header ul>li>a>img{position: absolute;bottom:-15px;right: 0;}
 
 /*main_img*/
@@ -76,10 +76,10 @@
 .main_img .slider_txt p{display: block;text-align: center;font-weight: normal;}
 /*section*/
 
-#section{width: 100%;height: 1000px;position: relative;}
+#section{width: 100%;height: 360px;position: relative;}
 #section .section_containor{
 	width: 1260px;
-	height: 1260px;
+	height: 630px;
 	background-color: gold;
 	position: absolute;
 	left:50%;margin-left:-630px;
@@ -107,16 +107,6 @@
 #section .section_containor ul li:nth-child(6){width: 50%;background-image: url(../images/section_img2.jpg);}
 
 
-#section .section_containor ul li:nth-child(7){width: 25%;height: 630px;background-image: url(../images/section_img4.jpg);}
-
-#section .section_containor ul li:nth-child(8){width: 50%;background-image: url(../images/section_img1.jpg);}
-
-#section .section_containor ul li:nth-child(9){width: 25%;background-color: #000;}
-
-#section .section_containor ul li:nth-child(10){width: 25%;background-color: #999697;}
-
-#section .section_containor ul li:nth-child(11){width: 50%;background-image: url(../images/section_img3.jpg);}
-
 #section .section_containor ul li .containor_box1{position: relative;width: 100%;height: 100%;}
 
 #section .section_containor ul li .containor_box1 a{
@@ -136,6 +126,22 @@
 	left:35%;
 	margin: 0 auto;
 }
+#section .section_containor ul li .containor_box3{
+	position: relative;
+	background-color: #fff;width: 315px;height: 315px;
+}
+#section .section_containor ul li .containor_box3:after{
+	content:"";
+	position: absolute;
+	top: 50%;right:-40px;
+	_margin-top: -20px;
+	transform:translateY(-50%);
+	border-style:solid;
+	border-width:20px;
+	border-color:transparent transparent transparent white;
+	display:block;
+}
+#section .section_containor ul li .containor_box3{}
 
 #section .section_containor ul li .containor_box4{position: relative;width: 100%;height: 100%;}
 #section .section_containor ul li .containor_box4 a{
@@ -204,8 +210,8 @@
 #section .section_containor ul li .containor_box8{width: 100%;height: 100%;padding: 30px; color:white;}
 
 #section .section_containor ul li .containor_box8 p{
-	line-height: 20px;
-	width: 550px;
+	line-height: 28px;
+	width: 400px;
 	height: 10px;
 	font-weight: bold;
 	margin-top: 30px;
@@ -260,7 +266,7 @@
 .section_img h3{
 	text-align: center;
 	position: absolute;
-	bottom:600px;
+	bottom:698px;
 	left:827px;
 	font-size:2em;
 	padding:10px;
@@ -271,13 +277,43 @@
 .section_img p{
 	text-align: center;
 	position: absolute;
-	bottom:558px;
+	bottom:660px;
 	left:846px;
 	font-weight:bold;
 	color:white;
 	
 }
+.section_img .section_card{
+	width: 1260px;
+	margin: 0 auto;
+	position: absolute;
+	top:28%;left:20%;
+}
+.section_img .section_card li{
+	width: 420px;
+	height: 300px;
+	float: left;
+	
+}
 
+.section_img .section_card img{
+
+	margin-bottom:40px;
+	cursor: pointer;
+}
+.section_img .section_card img:hover{
+	transform: scale(1.1);
+	transition:0.3s;
+}
+.section_img .section_card .card_txt{
+	width: 315px;
+	line-height: 80px;
+	text-align: center;
+	border-radius:78.75px;
+	border: 4px solid #fff;
+}
+.section_img .section_card .card_txt a{color:white;}
+.section_card img{width: 315px;height: 315px;}
 /*body_section*/
 
 #body_section{width: 100%;height: 630px;position: relative;margin-bottom: 60px;}

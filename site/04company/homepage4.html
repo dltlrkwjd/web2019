@@ -8,6 +8,7 @@
 	<link rel="stylesheet" href="css/style.css">
 	<link rel="stylesheet" href="css/jquery.bxslider.css">
 	<link rel="stylesheet" href="css/colorbox.css">
+	<link rel="stylesheet" href="css/all.css">
 
 	<script src="js/jquery-3.1.1.min.js"></script>
 	<script src="js/jquery.bxslider.js"></script>
@@ -22,13 +23,19 @@
 			});
 
 			var mySlider = $(".slider").bxSlider({auto:false,controls:false});
+			var mySlider = $(".slider2").bxSlider({auto:false,controls:false,pager:false,mode:'fade'});
 			$(".prevBtn").click(function(){
 				mySlider.goToPrevSlide()
 			});
 			$(".nextBtn").click(function(){
 				mySlider.goToNextSlide();
 			});
-
+			$(".prevBtn2").click(function(){
+				mySlider.goToPrevSlide()
+			});
+			$(".nextBtn2").click(function(){
+				mySlider.goToNextSlide();
+			});
 		});
 
 			
@@ -90,20 +97,44 @@
 				<li>
 					<div class="containor_box1">
 						
-						<a href="#">NEWS</a>
+						<a href="#">FASHION</a>
 					</div>
 				</li>
 				<li>
-					<div class="play_button"><a href="https://www.youtube.com/embed/vuANa8kUoXQ" class="youtube" title="영상"><img src="images/play_button.png"alt=""></a></div>
+					<div class="play_button">
+						<a href="https://www.youtube.com/embed/vuANa8kUoXQ" class="youtube" title="영상">
+							<img src="images/play_button.png"alt="">
+							<div class="containor_box2">
+						<a href="#">CLASSIC</a>
+					</div></a></div>
+					
 				</li>
 				<li>
-					<div class="containor_box3"></div>
+					<div class="containor_box3">
+						<a href="#">ACTIVE</a>
+					</div>
 				</li>
 				<li>
-					<div class="containor_box4">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Porro, fuga!</div>
+					<ul class="slider2">
+
+						<li>
+							<div class="left"><h3>NEWS</h3>01 Lorem ipsum dolor sit amet.<br>Lorem ipsum dolor sit amet.<br>Lorem ipsum dolor sit amet.</div>
+							<div class="right"><img src="images/slider_img1.jpg" alt=""></div>
+						</li>
+						<li>
+							<div class="left"><h3>NEWS</h3>02 Lorem ipsum dolor sit amet.<br>Lorem ipsum dolor sit amet.<br>Lorem ipsum dolor sit amet.</div>
+							<div class="right"><img src="images/slider_img2.jpg" alt=""></div>
+						</li>						
+					</ul>
+					<div class="visual2">
+							<div class="prevBtn2"><i class="far fa-caret-square-left"></i></div>
+							<div class="nextBtn2"><i class="far fa-caret-square-right"></i></div>
+					</div>
 				</li>
 				<li>
-					<div class="containor_box5"></div>
+					<div class="containor_box5">
+						<a href="#">SIGNA</a>
+					</div>
 				</li>
 				
 			</ul>

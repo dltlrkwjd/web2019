@@ -22,8 +22,8 @@
 				innerHeight:"315px"
 			});
 
-			var mySlider = $(".slider").bxSlider({auto:false,controls:false});
-			var mySlider = $(".slider2").bxSlider({auto:false,controls:false,pager:false,mode:'fade'});
+			var mySlider = $(".slider").bxSlider({auto:true,controls:false});
+			var mySlider2 = $(".slider2").bxSlider({auto:false,controls:false,pager:false,mode:'fade'});
 			$(".prevBtn").click(function(){
 				mySlider.goToPrevSlide()
 			});
@@ -31,10 +31,10 @@
 				mySlider.goToNextSlide();
 			});
 			$(".prevBtn2").click(function(){
-				mySlider.goToPrevSlide()
+				mySlider2.goToPrevSlide()
 			});
 			$(".nextBtn2").click(function(){
-				mySlider.goToNextSlide();
+				mySlider2.goToNextSlide();
 			});
 		});
 
@@ -144,37 +144,38 @@
 	<!-- section_footer -->
 
 	<div class="section_img">
-		<img src="images/section_img.jpg" alt="">
 		<h3>Alba. Let the light shine on!</h3>
 		<p>ALBA의 어원은 ‘여명’ 을 뜻하는 고대어로 근래에 이르러<br>
 ‘빛과 희망, 새로운 시작’ 이라는 뜻으로 사용되는 라틴어 입니다.</p>
 		<div class="section_card">
-			<li>
-				<div class="card_title">
-					<div class="card_img">
-						<img src="images/section_footer1.jpg" alt="">
+			<ul class="clearfix">
+				<li>
+					<div class="card_title">
+						<div class="card_img">
+							<img src="images/section_footer1.jpg" alt="">
+						</div>
+						<div class="card_txt"><a href="#">NEW PRODUCT</a></div>
 					</div>
-					<div class="card_txt"><a href="#">NEW PRODUCT</a></div>
-				</div>
-				
-			</li>
-			<li>
-				<div class="card_title">
-					<div class="card_img">
-						<img src="images/section_footer2.jpg" alt="">
+					
+				</li>
+				<li>
+					<div class="card_title">
+						<div class="card_img">
+							<img src="images/section_footer2.jpg" alt="">
+						</div>
+						<div class="card_txt"><a href="#">STORE</a></div>
 					</div>
-					<div class="card_txt"><a href="#">STORE</a></div>
-				</div>
-				
-			</li>
-			<li>
-				<div class="card_title">
-					<div class="card_img">
-						<img src="images/section_footer3.jpg" alt="">
-					</div>
-					<div class="card_txt"><a href="#">SERVICE</a></div>
-					</div>
-			</li>			
+					
+				</li>
+				<li>
+					<div class="card_title">
+						<div class="card_img">
+							<img src="images/section_footer3.jpg" alt="">
+						</div>
+						<div class="card_txt"><a href="#">SERVICE</a></div>
+						</div>
+				</li>			
+			</ul>
 		</div>
 	</div>
 

@@ -87,7 +87,7 @@
 #section .section_containor{
 	width: 1260px;
 	height: 630px;
-	background-color:black;
+	_background-color:black;
 	position: absolute;
 	left:50%;margin-left:-630px;
 	top:-447px;
@@ -101,7 +101,7 @@
 
 #section .section_containor>ul>li:nth-child(1){width: 25%;background-image: url(../images/dd.jpg);}
 
-#section .section_containor>ul>li:nth-child(2){width: 50%;background-image: url(../images/xx.jpg);opacity:0.8;}
+#section .section_containor>ul>li:nth-child(2){width: 50%;background-image: url(../images/xx.jpg);}
 #section .section_containor ul li .play_button{position: relative;}
 #section .section_containor ul li .play_button img{position: absolute;bottom:100px; left: 45%;bottom: -200px;}
 

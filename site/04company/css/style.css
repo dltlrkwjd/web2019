@@ -896,3 +896,7 @@
 
 .aboutus_main{width: 100%;}
 .aboutus_main .aboutus_sub{width: 1260px;margin: 0 auto;}
+.aboutus_main .aboutus_sub .about_logo{width: 1260px; margin-bottom: 60px;}
+.aboutus_main .aboutus_sub .about_logo>ul>li{float: left;width: 315px;}
+.aboutus_main .aboutus_sub .about_logo>ul>li>a{display: block;width: 143px;margin: 0 auto;}
+.aboutus_main .aboutus_sub .about_logo>ul>li>p{text-align: center;font-size:18px;}

@@ -900,3 +900,86 @@
 .aboutus_main .aboutus_sub .about_logo>ul>li{float: left;width: 315px;}
 .aboutus_main .aboutus_sub .about_logo>ul>li>a{display: block;width: 143px;margin: 0 auto;}
 .aboutus_main .aboutus_sub .about_logo>ul>li>p{text-align: center;font-size:18px;}
+
+/*contact_sub*/
+#hd_sub4{background:url(../images/contact_sub_main.jpg);height: 400px;margin-bottom: 50px;}
+
+.hd_sub_head4{height: 120px;left:50%;}
+.hd_sub_header4{
+	width: 1260px;
+	height: 120px;
+	_background-color: gold;
+	margin: 0 auto;
+	
+}
+
+.hd_sub_header4 h1{
+	display: block;
+	color:white;
+	text-align: left;
+	line-height: 120px;
+	font-size:3em;
+	font-weight: bold;
+}
+
+.hd_sub_header4 h2{
+	display: block;
+	color:white;
+	text-align: center;
+	line-height: 120px;
+	font-size:4em;
+	font-weight: bold;
+	_text-shadow: 0px 0px 8px #fff;
+}
+
+.hd_sub_header4 ul{
+	position: absolute;
+	right:322px;
+	top:49px;
+}
+.hd_sub_header4 ul>li{
+
+	text-align: center;
+	display: block;
+	width:150px;
+	float:left;
+	_background-color: pink;
+
+}
+.hd_sub_header4 ul>li>a{color:white;font-weight: normal;}
+
+.hd_sub_header4 ul>li>a:hover{color:#ccc;}
+
+
+.hd_sub_header4 ul>li>a>img{
+	position: absolute;
+	bottom:-15px;right: 0;
+}
+.hd_sub_header4 h3{
+	padding-top: 30px;
+	display: block;
+	color:white;
+	text-align: center;	
+	font-size:2em;
+	font-weight: bold;
+	_text-shadow: 0px 0px 8px #fff;
+}
+.hd_sub_header4 p{
+	display: block;
+	color:white;
+	text-align: center;
+	font-size:18px;
+	font-weight: bold;
+	_text-shadow: 0px 0px 8px #fff;
+}
+
+.contact_main{
+	background:url(../images/contact_main.jpg);
+	 width: 100%;
+	 height: 300px;
+	 margin-bottom: 80px;
+	}
+
+.contact_main>ul>li{text-align: center;color:white;}
+
+

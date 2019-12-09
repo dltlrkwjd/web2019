@@ -1,0 +1,7 @@
+@charset "utf-8"
+
+*{box-sizing: border-box;}
+
+.box{float: left; margin: 0 10px;width:calc(33.33% - 20px);} 
+.box img{width: 100%;}
+.svg_logo{width: 300px;}

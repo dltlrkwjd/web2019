@@ -340,4 +340,136 @@ if($season>=0 && $season<=12){
 	$n++; //(3)증감식
  }
  
+ var $i = 1; //초기값
+ while($i<=50){ //조건식(50이하까지) ->(2) , (5)
+ 	document.write($i, "<br>"); // 실행문 ->(3) , (6)
+ 	$i++; //증감식(1씩 올려준다) ->(4) , (7)
+ }
+ //$i가 51이 되는 순간 while 문에서 탈출
 
+ /*12개의 박스를 반복문을 통해서 구성*/
+ var $box_num = 1;
+ while($box_num<=12){
+ 	if($box_num%3 == 0){
+ 	document.write("<div class='bx bx_"+$box_num+"'>"+$box_num+"</div>");
+	 }else{
+	 	document.write("<div class='bx bx_"+$box_num+"'>"+$box_num+"</div>");
+	 }
+	 $box_num++;
+ }
+
+document.write("<div class='clear'></div>");
+document.write("<h3>do~while 문</h3>"); //먼저 실행을 하고나서 조건식을 검사하여 반복한다
+var $dw = 1; //# 초기값
+do{
+	document.write("<div class='dw_bx'>"+$dw+"</div>"); //#2 실행문
+	$dw++; //#3 증감식
+}while($dw<=9) //#4 조건식 #7
+
+document.write("<div class='clear'></div>");
+document.write("<h3>for 문</h3>"); //#1 초기값->#2 조건식->#3 실행문->#4 증감식
+for($i=1; $i<=10; $i++){
+	document.write("<div class='for_bx'>"+$i+"</div>");
+}
+
+document.write("<div class='clear'></div>");
+
+//50개의 박스를 구성. 3의배수, 4의 배수, 3과 4의 교집합이 되는 배수의 박스 영역 색상을 교체
+for(k=1; k<=50; k++){
+	if(k%3==0 && k%4!=0){ //3의 배수이면서 4의 배수가 아닌경우
+		document.write("<div class='for_bx2' style='background:#ffffaa'>"+k+"</div>");
+	}else if(k%3!==0 && k%4==0){ //3의 배수가 아니면서 4의배수인 경우
+		document.write("<div class='for_bx2' style='background:#aaffaa'>"+k+"</div>");
+	}else if(k%3==0 && k%4==0){ //3의 배수이면서 4의 배수인 경우(교집합 영역)
+		document.write("<div class='for_bx2' style='background:#ffaaff'>"+k+"</div>");
+	}else{
+		document.write("<div class='for_bx2' style='background:#aaa'>"+k+"</div>");
+	}
+}
+
+document.write("<div class='clear'></div>");
+document.write("<h3>break 문</h3>");
+
+for($m=1; $m<=10; $m++){
+	document.write("<div class='for_break'>"+$m+"</div>");
+	break; //반복문이 실행되지 않도록 막는 기능
+}
+
+document.write("<div class='clear'></div>");
+for($n=1; $n<=1000000000000000000; $n++){
+	if($n == 8){
+		break;
+	}
+	document.write("<div class='for_break'>"+$n+"</div>");
+}
+
+
+document.write("<div class='clear'></div>");
+document.write("<h3>continue 문</h3>");
+	
+for($p=1; $p<=12; $p++){
+	if($p == 7){ //$p = 1,2,3,4,5,6 박스를 구성하고 7번 박스는 만들지 않는다. 그리고 그다음에 적용될 8번박스부터 다시 구성(12번 박스까지)
+		continue; //다음에 오는 실행문은 실행하지 않고 건너뛴 상태에서 다음 증감식으로 이동하여 다음 박스에서 다시 실행문을 반복한다.
+	}
+	document.write("<div class='for_break'>"+$p+"</div>");
+}
+
+document.write("<div class='clear'></div>");
+document.write("<h3>중첩 for 문</h3>");
+
+for($g=1; $g<=5; $g++){ //행
+	for($h=1; $h<=6; $h++){ //열
+		document.write($g+"행"+$h+"열", "<br>");
+	}
+}
+
+
+for($a=5; $a<=9; $a++){
+	document.write("<h4>"+$a+"단</h4>");
+	for($b=1; $b<=9; $b++){
+		document.write($a+"×"+$b+"="+$a*$b, "<br>");
+	}
+}
+
+//실습 응용1
+// var $in=prompt("출력할 구구단 하나를 입력하세요", "");
+// document.write("<h4>"+$in+"단</h4>");
+// for($c=1; $c<=9; $c++){
+// 	document.write($in+"×"+$c+"="+$in*$c, "<br>");
+// }
+
+// //실습 응용2
+// var $in2=prompt("시작할 구구단의 수를 입력하세요", "");
+// for($e=$in2; $e<=9; $e++){
+// 	document.write("<h4>"+$e+"단</h4>");
+// 	for($f=1; $f<=9; $f++){
+// 		document.write($e+"×"+$f+"="+$e*$f, "<br>");
+// 	}
+// }
+
+document.write("<h3>형 변환(숫자를 문자로 변환)-01</h3>");
+var numString = 24;
+console.log(typeof numString); //number(숫자형 데이터)
+var resultString = String(numString);
+console.log(typeof resultString); //string(문자형 데이터)
+
+document.write("<h3>형 변환(문자를 숫자로 변환)-02</h4>");
+var strNum = "24";
+console.log(typeof strNum);
+var resultNum = Number(strNum);
+console.log(typeof resultNum);
+
+var strNo = "3.125615816";
+var rstNo1 = parseInt(strNo); //정수 형태의 숫자형 데이터
+console.log(rstNo1);
+console.log(typeof rstNo1);
+var rstNo2 = parseFloat(strNo); //실수 형태의 숫자형 데이터
+console.log(rstNo2);
+console.log(typeof rstNo2);
+
+var $number1= Number(prompt("첫번째 숫자를 입력하세요", ""));
+var $number2= Number(prompt("두번째 숫자를 입력하세요", ""));
+
+alert("입력한 수: " + $number1 +", " + $number2 + "\n" +
+	  "SUM: " + ($number1+$number2) +"\n"+ "subtract: " + ($number1-$number2)
+	);

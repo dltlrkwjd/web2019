@@ -980,6 +980,25 @@
 	 margin-bottom: 80px;
 	}
 
-.contact_main>ul>li{text-align: center;color:white;}
+.contact_main .form-txt{text-align: center;color:white;}
 
+.form-group{
+	width: 300px;
+	height: 100px;
+	margin: 0 auto;	
+	color:white;
+	
+}
 
+.form-control{
+	width: 300px;
+	height: 45px;
+	box-shadow:0 0 15px rgba(37,33,170,0.5);
+	border-radius:10px;	
+}
+
+.form-group>label{
+	font-weight: bold;
+	display: inline-block;
+	margin-bottom: 5px;
+}

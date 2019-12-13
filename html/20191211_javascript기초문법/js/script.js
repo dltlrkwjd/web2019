@@ -151,7 +151,68 @@ document.getElementById("txt").style.fontSize = Math.floor((Math.random()*100)+1
 
 /*랜덤을 통해서 출력되는 정수값을 1~9*/
 var random_img = Math.floor((Math.random()*9)+1);
-document.write("<img src='images/img-view/view"+random_img+".jpg'>");
+document.write("<img src='images/img-view/view"+random_img+".jpg'>", "<br>");
 //만약 Math.random()으로부터 받아온 값이 0.0000000000001이라면 0.00000000000001*9=>0.00000000000009 좌측의 값으로부터 1을 더한다면 1.000000000000 => 내림(Math.floor)을 적용하기 떄문에 최종값은 1
 
 //만약 Math.random()으로부터 받아온 값이 0.99이라면 0.99*9 => 8.91 좌측 값으로부터 1을 더한다면 9.91 => 내림 적용시 최종값은 9
+
+var $num01
+var $num02
+
+$num01 = 36;
+$num02 = 12;
+
+var $sum = $num01 + $num02;
+var $subtract = $num01 - $num02;
+var $multiply = $num01 * $num02;
+var $devide = $num01 / $num02;
+// var $result = $num01 % $num02;
+
+document.write("SUM = ", $sum, "<br>");
+document.write("SUBTRACT = ", $subtract, "<br>");
+document.write("MULTYPLY = ",$multiply, "<br>");
+document.write("DEVIDE = ", $devide, "<br>");
+// document.write("RESULT = ", $result, "<br>");
+
+var $num03 = 36;
+var $num04 = 12;
+var $result;
+
+$result = $num03+=$num04;
+document.write("result (+=) = "+$result, "<br>");
+$result = $num03-=$num04;
+document.write("result (-=) = "+$result, "<br>");
+$result = $num03*=$num04;
+document.write("result (*=) = "+$result, "<br>");
+$result = $num03/=$num04;
+document.write("result (/=) = "+$result, "<br>");
+$result = $num03%=$num04;
+document.write("result (%=) = "+$result, "<br>");
+
+// var $num_in = prompt("네 자리 이상의 수를 입력하시오.", "0000");
+// console.log($num_in);
+// if($num_in>=1000){
+// 	if($num_in%7 == 0){
+// 		document.write("입력한 값은 7의배수입니다.");
+// 	}else{
+// 		document.write("입력한 값은 7의 배수가 아닙니다.");
+// 	}
+// }else{
+// 	alert("입력한 숫자가 유효하지 않습니다. 재입력 해주세요.");
+// 	location.reload();
+// }
+
+// $bx_num = 1;
+
+// for($bx_num=1; $bx_num<=10; $bx_num++){
+// 	document.write("<div class='for_box class=clear'>"+$bx_num+"</div>");	
+// }
+
+
+document.write("<div class='clear'></div>");
+
+var $box_limit = prompt("보여줄 박스의 개수를 입력하세요", "");
+$m = 1;
+for($m=1; $m<=$box_limit; $m++){
+	document.write("<div class='m_box'>"+$m+"</div>");
+}

@@ -10,18 +10,140 @@ h1, h2, h3, h4, h5, h6, p{margin: 0;}
 a{text-decoration: none;}
 .clear{clear: both;}
 
+/*header영역*/
+
+
 header{width: 100%;}
-.header_bg{width: 1200px; height: 70px; margin: 0 auto;background: #ffaaaa; position: relative;}
-.logo_bg{background:url(../img/logo-img1.png) no-repeat; position: absolute; left: 0;}
-.logo_bg>img{width: 100px;height: 88px;}
+.header_bg{
+	width: 1200px; 
+	height: 70px; 
+	margin: 0 auto;
+	position: relative;
+}
+.logo_bg{
+	position: absolute;
+	left: 0;
+}
+.logo{
+	width: 88px;
+	height: 88px;
+	z-index:1;
+	position: absolute;
+	left:33px;
+	top:-3px;
+}
+.logo_main{
+	width: 253px;
+	height: 106px;
+	position: absolute;
+	left:-50px;
+}
+.header_menu{}
+.header_menu>ul{text-align: center;}
+.header_menu>ul>li{
+	display: inline-block;
+	line-height: 70px;
+	margin:0 15px;
+}
+.header_menu>ul>li>a{
+	display: block;
+	color:#5c5c5c;
+}
+.header_menu>ul>li>a:hover{color:#755562;}
+
 .header_account{
 	width: 180px; 
 	height: 30px;
 	border-radius:10px; 
 	position: absolute; 
 	right: 0;
-	_top:28%; 
+	top:28%; 
 	background-color: #5e889e;
 	text-align: center;
 	line-height: 30px;
+}
+.header_account>a{color:#fff;}
+
+/*section영역*/
+
+section{width: 100%;height: 1070px;}
+
+.section_bg01{
+	width: 100%;
+	height: 820px; 
+	background:url(../img/header-bg.jpg)0;
+}
+.section_bg01>img{
+	width: 100%;
+	height: 120px;
+	position: absolute;
+	bottom: 47px;
+}
+.section_header{
+	width: 1200px;
+	height: auto;
+	margin: 0 auto;
+	text-align: center;
+	position: relative;
+}
+.section_main{
+	width: 100%;
+	height: auto;
+	color:#fff;
+	position: absolute;
+	top:280px;
+}
+.section_h2>h2{font-size:36px;}
+.section_item{
+	width: 100%;
+	height: 120px;
+}
+.section_item>li{
+	display: inline-block;
+	margin:10px;
+	width: 160px;
+	background: #5e889e;
+	border-radius:5px; 
+	margin-top: 47px;
+}
+.section_item>li:last-child{background: #999999;}
+.section_item>li>a{
+	display: block;
+	height: 30px;
+	font-size:16px;
+	padding: 4px;
+	color:#fff;
+}
+.section_item>li>a:hover{color:#7a5e69;}
+
+/*article영역*/
+
+article{width: 100%;height: 310px;}
+
+.article_box{width: 1200px;height: 310px;margin: 0 auto;}
+.art_card{
+	float: left;
+	width: 400px;
+	text-align: center;
+}
+.art_h2{padding: 15px;}
+
+/*중간 이미지 영역*/
+
+.content_bg{
+	width: 100%;
+	height: 200px;
+	background:url(../img/Investment-Performance-Banner-650.jpg);
+	background-size:cover;
+	background-attachment: fixed;
+	display: table;
+}
+.content_txt{
+	width: 100%;
+	height: 100%;
+	text-align: center;
+	background:rgba(0,0,0,0.5);
+	display: table-cell;
+	vertical-align: middle;
+
 }

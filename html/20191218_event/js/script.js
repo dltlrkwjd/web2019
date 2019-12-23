@@ -75,3 +75,5 @@ function resizeEvt(){
 }
 
 changeSize(); //브라우저 최초 로딩시 함수문을 실행하라는 호출문
+
+

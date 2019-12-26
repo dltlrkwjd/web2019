@@ -1,0 +1,12 @@
+@charset "utf-8";
+*{-webkit-box-sizing: border-box; -moz-box-sizing: border-box; box-sizing: border-box;}
+html, body{margin: 0; padding: 0;}
+ul, ol{margin: 0; padding: 0; list-style: none;}
+a{text-decoration: none;}	
+
+.ef_01{width:400px; height:400px; background:#aaffff;}
+
+.cont{cursor:pointer;}
+.detail_cont{display:none;}
+
+.ef_02{width:300px; height:300px; background:#aaffaa;}

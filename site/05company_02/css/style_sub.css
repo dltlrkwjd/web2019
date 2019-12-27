@@ -25,4 +25,19 @@
 	100%{left:0;}
 
 }
-.sub_section_box{width: 1200px;height: auto;background: #fff;}
+.sub_section_box{
+	width: 1200px;
+	height: auto;
+	background: #fff;
+	margin: 0 auto;
+}
+.sub_section_h3{
+	width: 100%;
+	height: 60px;
+	text-align: center;
+}
+.txt01{padding-bottom: 20px;}
+.txt02{padding-bottom: 40px;}
+
+aside{width: 100%;height: auto;}
+.card_box{}

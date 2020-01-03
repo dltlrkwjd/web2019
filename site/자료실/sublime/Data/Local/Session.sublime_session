@@ -489,6 +489,14 @@
 				"selected_items":
 				[
 					[
+						"sp",
+						"space-between\tjustify-content"
+					],
+					[
+						"j",
+						"justify-content\tproperty"
+					],
+					[
 						"box-",
 						"box-sizing\tproperty"
 					],
@@ -636,6 +644,42 @@
 			},
 			"buffers":
 			[
+				{
+					"file": "/C/Users/hi/Desktop/이기윤/이기윤/web2019/site/05company_02/NewCenter.html",
+					"settings":
+					{
+						"buffer_size": 4200,
+						"encoding": "UTF-8",
+						"line_ending": "Windows"
+					}
+				},
+				{
+					"file": "/C/Users/hi/Desktop/이기윤/이기윤/web2019/site/05company_02/css/common.css",
+					"settings":
+					{
+						"buffer_size": 2261,
+						"encoding": "UTF-8",
+						"line_ending": "Windows"
+					}
+				},
+				{
+					"file": "/C/Users/hi/Desktop/이기윤/이기윤/web2019/site/05company_02/css/News.css",
+					"settings":
+					{
+						"buffer_size": 1836,
+						"encoding": "UTF-8",
+						"line_ending": "Windows"
+					}
+				},
+				{
+					"file": "/C/Users/hi/Desktop/이기윤/이기윤/web2019/html/20191213_Flex/css/style.css",
+					"settings":
+					{
+						"buffer_size": 6206,
+						"encoding": "UTF-8",
+						"line_ending": "Windows"
+					}
+				}
 			],
 			"build_system": "",
 			"build_system_choices":
@@ -688,14 +732,16 @@
 				"/C/Users/hi/Desktop/이기윤/이기윤",
 				"/C/Users/hi/Desktop/이기윤/이기윤/web2019",
 				"/C/Users/hi/Desktop/이기윤/이기윤/web2019/html",
-				"/C/Users/hi/Desktop/이기윤/이기윤/web2019/html/20200103_아코디언방식 영상",
-				"/C/Users/hi/Desktop/이기윤/이기윤/web2019/html/20200103_장사리전투",
-				"/C/Users/hi/Desktop/이기윤/이기윤/web2019/html/20200103_장사리전투/css",
-				"/C/Users/hi/Desktop/이기윤/이기윤/web2019/html/20200103_장사리전투/img",
-				"/C/Users/hi/Desktop/이기윤/이기윤/web2019/html/20200103_장사리전투/js"
+				"/C/Users/hi/Desktop/이기윤/이기윤/web2019/html/20191213_Flex",
+				"/C/Users/hi/Desktop/이기윤/이기윤/web2019/html/20191213_Flex/css",
+				"/C/Users/hi/Desktop/이기윤/이기윤/web2019/site",
+				"/C/Users/hi/Desktop/이기윤/이기윤/web2019/site/05company_02",
+				"/C/Users/hi/Desktop/이기윤/이기윤/web2019/site/05company_02/css"
 			],
 			"file_history":
 			[
+				"/C/Users/hi/Desktop/이기윤/이기윤/web2019/site/05company_02/css/partnership.css",
+				"/C/Users/hi/Desktop/이기윤/이기윤/web2019/site/05company_02/Partnership.html",
 				"/C/Users/hi/Desktop/이기윤/이기윤/web2019/html/20200103_아코디언방식 영상/index.html",
 				"/C/Users/hi/Desktop/이기윤/이기윤/web2019/html/20200103_아코디언방식 영상/css/style.css",
 				"/C/Users/hi/Desktop/이기윤/이기윤/web2019/html/20200103_아코디언방식 영상/js/script.js",
@@ -716,7 +762,6 @@
 				"/C/Users/hi/Desktop/이기윤/이기윤/web2019/html/20200103_장사리전투/characters.html",
 				"/C/Users/hi/Desktop/이기윤/이기윤/web2019/html/20200103_장사리전투/coverstory.html",
 				"/C/Users/hi/Desktop/이기윤/이기윤/web2019/site/05company_02/NewCenter.html",
-				"/C/Users/hi/Desktop/이기윤/이기윤/web2019/site/05company_02/Partnership.html",
 				"/C/Users/hi/Desktop/이기윤/이기윤/web2019/site/05company_02/css/style_sub.css",
 				"/C/Users/hi/Desktop/이기윤/이기윤/web2019/site/05company_02/css/common.css",
 				"/C/Users/hi/Desktop/이기윤/이기윤/web2019/site/05company_02/css/News.css",
@@ -822,8 +867,7 @@
 				"/D/한성용/자료실/web/2019_webdesign-master/01.himedia/css/style.css",
 				"/D/한성용/web2019/site/01himedia/css/style.css",
 				"/D/한성용/web2019/site/01himedia/index.html",
-				"/D/한성용/자료실/web/2019_webdesign-master/01.himedia/index.html",
-				"/D/한성용/web2019/html/20191107_border/index.html"
+				"/D/한성용/자료실/web/2019_webdesign-master/01.himedia/index.html"
 			],
 			"find":
 			{
@@ -925,13 +969,143 @@
 			"groups":
 			[
 				{
+					"selected": 0,
 					"sheets":
 					[
+						{
+							"buffer": 0,
+							"file": "/C/Users/hi/Desktop/이기윤/이기윤/web2019/site/05company_02/NewCenter.html",
+							"semi_transient": false,
+							"settings":
+							{
+								"buffer_size": 4200,
+								"regions":
+								{
+								},
+								"selection":
+								[
+									[
+										3099,
+										3099
+									]
+								],
+								"settings":
+								{
+									"incomplete_sync": null,
+									"remote_loading": false,
+									"synced": false,
+									"syntax": "Packages/HTML/HTML.sublime-syntax",
+									"translate_tabs_to_spaces": false
+								},
+								"translation.x": 0.0,
+								"translation.y": 1221.0,
+								"zoom_level": 1.0
+							},
+							"stack_index": 1,
+							"type": "text"
+						},
+						{
+							"buffer": 1,
+							"file": "/C/Users/hi/Desktop/이기윤/이기윤/web2019/site/05company_02/css/common.css",
+							"semi_transient": true,
+							"settings":
+							{
+								"buffer_size": 2261,
+								"regions":
+								{
+								},
+								"selection":
+								[
+									[
+										0,
+										0
+									]
+								],
+								"settings":
+								{
+									"incomplete_sync": null,
+									"remote_loading": false,
+									"synced": false,
+									"syntax": "Packages/CSS/CSS.sublime-syntax",
+									"translate_tabs_to_spaces": false
+								},
+								"translation.x": 0.0,
+								"translation.y": 0.0,
+								"zoom_level": 1.0
+							},
+							"stack_index": 3,
+							"type": "text"
+						}
 					]
 				},
 				{
+					"selected": 0,
 					"sheets":
 					[
+						{
+							"buffer": 2,
+							"file": "/C/Users/hi/Desktop/이기윤/이기윤/web2019/site/05company_02/css/News.css",
+							"semi_transient": false,
+							"settings":
+							{
+								"buffer_size": 1836,
+								"regions":
+								{
+								},
+								"selection":
+								[
+									[
+										1734,
+										1734
+									]
+								],
+								"settings":
+								{
+									"incomplete_sync": null,
+									"remote_loading": false,
+									"synced": false,
+									"syntax": "Packages/CSS/CSS.sublime-syntax",
+									"translate_tabs_to_spaces": false
+								},
+								"translation.x": 0.0,
+								"translation.y": 1215.0,
+								"zoom_level": 1.0
+							},
+							"stack_index": 0,
+							"type": "text"
+						},
+						{
+							"buffer": 3,
+							"file": "/C/Users/hi/Desktop/이기윤/이기윤/web2019/html/20191213_Flex/css/style.css",
+							"semi_transient": true,
+							"settings":
+							{
+								"buffer_size": 6206,
+								"regions":
+								{
+								},
+								"selection":
+								[
+									[
+										735,
+										735
+									]
+								],
+								"settings":
+								{
+									"incomplete_sync": null,
+									"remote_loading": false,
+									"synced": false,
+									"syntax": "Packages/CSS/CSS.sublime-syntax",
+									"translate_tabs_to_spaces": false
+								},
+								"translation.x": 0.0,
+								"translation.y": 225.0,
+								"zoom_level": 1.0
+							},
+							"stack_index": 2,
+							"type": "text"
+						}
 					]
 				}
 			],
@@ -982,7 +1156,7 @@
 				"height": 209.0
 			},
 			"pinned_build_system": "",
-			"position": "0,0,1,-32000,-32000,-1,-1,976,188,81,1848",
+			"position": "0,0,1,-32000,-32000,-1,-1,1054,188,135,1848",
 			"project": "",
 			"replace":
 			{
@@ -1016,7 +1190,7 @@
 				],
 				"width": 0.0
 			},
-			"selected_group": 0,
+			"selected_group": 1,
 			"settings":
 			{
 			},

@@ -18,3 +18,84 @@
 	animation: Cloud 80s infinite;
 	bottom:0;
 }
+@keyframes Cloud{
+	0%{left:0;}
+	50%{left:-100%;}
+	100%{left:0;}
+
+}
+.sub_section_title{
+	width: 100%;
+	height: 60px;
+	text-align: center;
+	font-size: 24px;
+	color:#5c5c5c;
+	font-weight:normal;
+}
+
+/*- article 영역 -*/
+
+article{
+	width: 1200px;
+	height: auto;
+	margin: 0 auto;
+}
+
+.article_title{
+	width: 980px;
+	height: 165px;
+	padding: 20px 0px;
+	border-top: 1px solid #5e889e;
+	margin: 0 auto;
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	justify-content: space-between;
+}
+.article_title:last-child{border-bottom: 1px solid #5e889e;}
+.article_title .article_img_box{
+	width: 280px;
+	height: 125px;
+	overflow:hidden;
+	border-radius: 5px;
+	-webkit-background-size: cover;
+	background-size: cover;
+}
+.article_title .article_img_box>img{
+	-webkit-background-size: cover;
+	background-size: cover;
+	width: 100%;
+	background-position: 0 20%;
+
+}
+.article_title .article_img_box>img:nth-child(2){}
+.article_title .article_img_box>img:nth-child(3){}
+.article_title .article_img_box>img:nth-child(4){}
+.article_title .article_img_box>img:nth-child(5){}
+.article_title .article_txt{
+	width: 660px;
+	height: 125px;
+	position: relative;
+	margin-right: 20px;
+}
+.txt_title{
+	font-size: 17.99px;
+	color: #87a4b4;
+	padding-bottom: 20px;
+}
+.txt_text{
+	font-size: 13.99px;
+	color: #5c5c5c;
+	line-height: 1.2;
+}
+.txt_date{
+	font-size: 13.95px;
+	color: #5c5c5c;
+	position: absolute;
+	bottom: 0;
+	right: 24px;
+}

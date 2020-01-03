@@ -1,0 +1,1042 @@
+{
+	"folder_history":
+	[
+		"/C/Users/hi/Desktop/이기윤",
+		"/D/한성용/web2019/php",
+		"/D/한성용/web2019/site",
+		"/D/한성용/sir",
+		"/D/한성용/web2019/html",
+		"/D/한성용/html"
+	],
+	"last_version": 3211,
+	"last_window_id": 8,
+	"log_indexing": false,
+	"settings":
+	{
+		"new_window_height": 836.0,
+		"new_window_settings":
+		{
+			"auto_complete":
+			{
+				"selected_items":
+				[
+					[
+						"box-",
+						"box-sizing\tproperty"
+					],
+					[
+						"date",
+						"date_sort"
+					],
+					[
+						"span",
+						"column-span\tproperty"
+					],
+					[
+						"over",
+						"overflow-x\tproperty"
+					],
+					[
+						"inline",
+						"inline-block\tdisplay"
+					],
+					[
+						"last_",
+						"last_child"
+					],
+					[
+						"h",
+						"hidden\toverflow"
+					],
+					[
+						"bgi",
+						"background-image\tproperty"
+					],
+					[
+						"tr",
+						"transparent\tbackground"
+					],
+					[
+						"box-s",
+						"box-shadow\tproperty"
+					],
+					[
+						"modal-",
+						"modal-dialog"
+					],
+					[
+						"min-",
+						"min-width\tproperty"
+					],
+					[
+						"fun",
+						"function"
+					],
+					[
+						"nowm",
+						"nowMinutes"
+					],
+					[
+						"inner",
+						"innerWidth"
+					],
+					[
+						"text",
+						"text-align\tproperty"
+					],
+					[
+						"in",
+						"inline-block\tdisplay"
+					],
+					[
+						"dis",
+						"display\tproperty"
+					],
+					[
+						"table-",
+						"table-cell\tdisplay"
+					],
+					[
+						"fu",
+						"function"
+					],
+					[
+						"grid-t",
+						"grid-template-rows"
+					],
+					[
+						"grid-tem",
+						"grid-template-rows\tproperty"
+					],
+					[
+						"space",
+						"space-between\talign-content"
+					],
+					[
+						"row",
+						"row\tflex-direction"
+					],
+					[
+						"fw",
+						"flex-wrap\tproperty"
+					],
+					[
+						"inlin",
+						"inline-block\tdisplay"
+					],
+					[
+						"round",
+						"roundNum"
+					],
+					[
+						"inli",
+						"inline-block\tdisplay"
+					],
+					[
+						"num",
+						"number1"
+					],
+					[
+						"result",
+						"resultString"
+					],
+					[
+						"lo",
+						"Lorus"
+					],
+					[
+						"bor",
+						"border-bottom\tproperty"
+					],
+					[
+						"min",
+						"min-width\tproperty"
+					],
+					[
+						"text-ce",
+						"text-decoration\tproperty"
+					],
+					[
+						"box",
+						"box-sizing\tproperty"
+					],
+					[
+						"list",
+						"list-style\tproperty"
+					]
+				]
+			},
+			"build_system_choices":
+			[
+			],
+			"build_varint": "",
+			"command_palette":
+			{
+				"height": 0.0,
+				"last_filter": "",
+				"selected_items":
+				[
+					[
+						"Package Control: install",
+						"Package Control: Install Package"
+					],
+					[
+						"Package Control: istall",
+						"Package Control: Install Package"
+					],
+					[
+						"Package Control: ",
+						"Package Control: Install Package"
+					]
+				],
+				"width": 0.0
+			},
+			"console":
+			{
+				"height": 447.0,
+				"history":
+				[
+					"console",
+					"import urllib.request,os,hashlib; h = '6f4c264a24d933ce70df5dedcf1dcaee' + 'ebe013ee18cced0ef93d5f746d80ef60'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)"
+				]
+			},
+			"distraction_free":
+			{
+				"menu_visible": true,
+				"show_minimap": false,
+				"show_open_files": false,
+				"show_tabs": false,
+				"side_bar_visible": false,
+				"status_bar_visible": false
+			},
+			"file_history":
+			[
+				"/C/Users/hi/Desktop/이기윤/이기윤/web2019/html/20200103/index.html",
+				"/C/Users/hi/Desktop/이기윤/이기윤/web2019/html/20200103_장사리전투/epilogue.html",
+				"/C/Users/hi/Desktop/이기윤/이기윤/web2019/html/20200103_장사리전투/index.html",
+				"/C/Users/hi/Desktop/이기윤/이기윤/web2019/html/20200103_장사리전투/js/script.js",
+				"/C/Users/hi/Desktop/이기윤/이기윤/web2019/html/20200103_장사리전투/css/characters.css",
+				"/C/Users/hi/Desktop/이기윤/이기윤/web2019/html/20200103_장사리전투/css/snapshot.css",
+				"/C/Users/hi/Desktop/이기윤/이기윤/web2019/html/20200103_장사리전투/css/snapshot_sub.css",
+				"/C/Users/hi/Desktop/이기윤/이기윤/web2019/html/20200103_장사리전투/css/epilogue.css",
+				"/C/Users/hi/Desktop/20200102-ajax/20200102-ajax/index.html",
+				"/C/Users/hi/Desktop/이기윤/이기윤/web2019/html/20200103_장사리전투/js/snapshot.js",
+				"/C/Users/hi/Desktop/이기윤/이기윤/web2019/html/20200103_장사리전투/snapshot_sub.html",
+				"/C/Users/hi/Desktop/이기윤/이기윤/web2019/html/20200103_장사리전투/snapshot.html",
+				"/C/Users/hi/Desktop/이기윤/이기윤/web2019/html/20200103_장사리전투/css/style.css",
+				"/C/Users/hi/Desktop/이기윤/이기윤/web2019/html/20200103_장사리전투/css/coverstory.css",
+				"/C/Users/hi/Desktop/이기윤/이기윤/web2019/html/20200103_장사리전투/characters.html",
+				"/C/Users/hi/Desktop/이기윤/이기윤/web2019/html/20200103_장사리전투/coverstory.html",
+				"/C/Users/hi/Desktop/이기윤/이기윤/web2019/site/05company_02/NewCenter.html",
+				"/C/Users/hi/Desktop/이기윤/이기윤/web2019/site/05company_02/Partnership.html",
+				"/C/Users/hi/Desktop/이기윤/이기윤/web2019/site/05company_02/css/style_sub.css",
+				"/C/Users/hi/Desktop/이기윤/이기윤/web2019/site/05company_02/css/common.css",
+				"/C/Users/hi/Desktop/이기윤/이기윤/web2019/site/05company_02/css/News.css",
+				"/C/Users/hi/Desktop/이기윤/이기윤/web2019/html/20191231_상품정렬하기/css/style.css",
+				"/C/Users/hi/Desktop/이기윤/이기윤/web2019/html/20191231_상품정렬하기/js/script.js",
+				"/C/Users/hi/Desktop/이기윤/이기윤/web2019/html/20191231_상품정렬하기/index.html",
+				"/C/Users/hi/Desktop/이기윤/이기윤/web2019/html/20191226-jQuery_effect/index.html",
+				"/C/Users/hi/Desktop/이기윤/이기윤/web2019/html/20191226-jQuery_effect/css/style.css",
+				"/C/Users/hi/Desktop/이기윤/이기윤/web2019/html/20191226-jQuery_effect/js/script.js",
+				"/C/Users/hi/Desktop/이기윤/이기윤/web2019/site/pinterest/work.html",
+				"/C/Users/hi/Desktop/이기윤/이기윤/web2019/site/pinterest/css/work.css",
+				"/C/Users/hi/Desktop/이기윤/이기윤/web2019/site/pinterest/js/work.js",
+				"/C/Users/hi/Desktop/Portfolio/Portfolio/index.html",
+				"/C/Users/hi/Desktop/이기윤/이기윤/web2019/html/20191227_jQuery실습문제01/js/script.js",
+				"/C/Users/hi/Desktop/이기윤/이기윤/web2019/html/20191227_팝업창/index.html",
+				"/C/Users/hi/Desktop/이기윤/이기윤/web2019/html/20191227_팝업창/css/style.css",
+				"/C/Users/hi/Desktop/이기윤/이기윤/web2019/html/20191227_팝업창/js/script.js",
+				"/C/Users/hi/Desktop/이기윤/이기윤/web2019/html/20191227_jQuery실습문제01/css/style.css",
+				"/C/Users/hi/Desktop/이기윤/이기윤/web2019/html/20191220_jQuery/index.html",
+				"/C/Users/hi/Desktop/이기윤/이기윤/web2019/html/20191227_jQuery실습문제01/index.html",
+				"/C/Users/hi/Desktop/이기윤/이기윤/web2019/html/20191227_jQuery실습문제02/css/style.css",
+				"/C/Users/hi/Desktop/이기윤/이기윤/web2019/html/20191227_jQuery실습문제02/js/script.js",
+				"/C/Users/hi/Desktop/이기윤/이기윤/web2019/html/20191227_jQuery실습문제02/index.html",
+				"/C/Users/hi/Desktop/이기윤/이기윤/web2019/html/20191226_jQuery실습문제/css/style.css",
+				"/C/Users/hi/Desktop/이기윤/이기윤/web2019/html/20191226_jQuery실습문제/index.html",
+				"/C/Users/hi/Desktop/이기윤/이기윤/web2019/html/20191226_jQuery실습문제/js/script.js",
+				"/C/Users/hi/Desktop/이기윤/이기윤/web2019/html/20191220_jQuery/js/script.js",
+				"/C/Users/hi/Desktop/이기윤/이기윤/web2019/site/05company_02/index.html",
+				"/C/Users/hi/Desktop/이기윤/이기윤/web2019/site/05company_02/css/style.css",
+				"/C/Users/hi/Desktop/이기윤/이기윤/web2019/html/20191224-jQuery-Event/js/script.js",
+				"/C/Users/hi/Desktop/이기윤/이기윤/web2019/html/20191224-jQuery-Event/index.html",
+				"/C/Users/hi/Desktop/이기윤/이기윤/web2019/html/20191213_Flex/css/style.css",
+				"/C/Users/hi/Desktop/이기윤/이기윤/web2019/html/20191224-jQuery-Event/css/style.css",
+				"/C/Users/hi/Desktop/이기윤/이기윤/web2019/html/20191218_event/js/script.js",
+				"/C/Users/hi/Desktop/이기윤/이기윤/web2019/html/20191218_event/index.html",
+				"/C/Users/hi/Desktop/이기윤/이기윤/web2019/html/20191223_bootstrap-Site/js/script.js",
+				"/C/Users/hi/Desktop/이기윤/이기윤/web2019/html/20191223_bootstrap-Site/index.html",
+				"/C/Users/hi/Desktop/이기윤/이기윤/web2019/html/20191223_bootstrap-Site/css/style.css",
+				"/C/Users/hi/Desktop/이기윤/이기윤/web2019/html/20191220_jQuery/css/style.css",
+				"/C/Users/hi/Desktop/이기윤/이기윤/web2019/html/20191218_Bootstrap/js/script.js",
+				"/C/Users/hi/Desktop/이기윤/이기윤/web2019/html/20191218_Bootstrap/css/style.css",
+				"/C/Users/hi/Desktop/이기윤/이기윤/web2019/html/20191218_Bootstrap/index.html",
+				"/C/Users/hi/Desktop/이기윤/이기윤/web2019/html/20191218_Bootstrap/scrollspy.html",
+				"/C/Users/hi/Desktop/이기윤/이기윤/web2019/html/20191213_portfolio-site2/css/res.css",
+				"/C/Users/hi/Desktop/이기윤/이기윤/web2019/site/05company_02/js/script.js",
+				"/C/Users/hi/Desktop/이기윤/이기윤/web2019/html/20191218_실습문제/js/script.js",
+				"/C/Users/hi/Desktop/이기윤/이기윤/web2019/html/20191216_함수/index.html",
+				"/C/Users/hi/Desktop/이기윤/이기윤/web2019/html/20191218_실습문제/index.html",
+				"/C/Users/hi/Desktop/이기윤/이기윤/web2019/html/20191218_실습문제/css/style.css",
+				"/C/Users/hi/Desktop/이기윤/이기윤/web2019/html/20191218_event/css/style.css",
+				"/C/Users/hi/Desktop/이기윤/이기윤/web2019/html/20191213_portfolio-site2/css/style.css",
+				"/C/Users/hi/Desktop/이기윤/이기윤/web2019/html/20191213_portfolio-site2/index.html",
+				"/C/Users/hi/Desktop/이기윤/이기윤/web2019/html/20191213_portfolio-site2/fonts-source/poiret-one/SIL Open Font License.txt",
+				"/C/Users/hi/Desktop/이기윤/이기윤/web2019/html/20191118_animation/transform.html",
+				"/C/Users/hi/Desktop/이기윤/이기윤/web2019/html/20191216_Grid/css/style.css",
+				"/C/Users/hi/Desktop/이기윤/이기윤/web2019/html/20191216_Grid/index.html",
+				"/C/Users/hi/Desktop/이기윤/이기윤/web2019/html/20191216_함수/js/script.js",
+				"/C/Users/hi/Desktop/이기윤/이기윤/web2019/html/20191211_javascript기초문법/index.html",
+				"/C/Users/hi/Desktop/이기윤/이기윤/web2019/html/20191211_portfolio-site/css/style.css",
+				"/C/Users/hi/Desktop/이기윤/이기윤/web2019/html/20191213_Flex/index.html",
+				"/C/Users/hi/Desktop/이기윤/이기윤/web2019/html/20191216/index.html",
+				"/C/Users/hi/Desktop/이기윤/이기윤/web2019/html/20191216/css/style.css",
+				"/C/Users/hi/Desktop/이기윤/이기윤/web2019/html/20191216/js/script.js",
+				"/C/Users/hi/Desktop/20191211-portfolio-웹사이트 제작/20191211-portfolio-웹사이트 제작/index.html",
+				"/C/Users/hi/Desktop/이기윤/이기윤/web2019/html/20191211_javascript기초문법/css/style.css",
+				"/C/Users/hi/Desktop/이기윤/이기윤/web2019/html/20191213_DOM/index.html",
+				"/C/Users/hi/Desktop/이기윤/이기윤/web2019/html/20191213_DOM/js/script.js",
+				"/C/Users/hi/Desktop/이기윤/이기윤/web2019/html/20191213_BOM/popup.html",
+				"/C/Users/hi/Desktop/이기윤/이기윤/web2019/html/20191213_BOM/js/script.js",
+				"/C/Users/hi/Desktop/이기윤/이기윤/web2019/html/20191213_BOM/index.html",
+				"/C/Users/hi/Desktop/이기윤/이기윤/web2019/html/20191213_BOM/js/js/script.js",
+				"/C/Users/hi/Desktop/이기윤/이기윤/web2019/html/20191209_javascript/js/script.js",
+				"/C/Users/hi/Desktop/이기윤/이기윤/web2019/html/20191211_javascript기초문법/js/script.js",
+				"/C/Users/hi/Desktop/이기윤/이기윤/web2019/html/20191211_displayblock,inlineblock비교/index.html",
+				"/C/Users/hi/Desktop/이기윤/이기윤/web2019/html/20191211_portfolio-site/index.html",
+				"/C/Users/hi/Desktop/이기윤/이기윤/web2019/html/20191209_javascript/css/style.css",
+				"/C/Users/hi/Desktop/이기윤/이기윤/web2019/html/20191211_javascript기초문법/fonts/transfonter.org-20191211-035901/stylesheet.css",
+				"/C/Users/hi/Desktop/이기윤/이기윤/web2019/site/04company/css/style.css",
+				"/C/Users/hi/Desktop/이기윤/이기윤/web2019/site/04company/index.html",
+				"/C/Users/hi/Desktop/이기윤/이기윤/web2019/site/04company/news.html",
+				"/C/Users/hi/Desktop/이기윤/이기윤/web2019/site/04company/brandconcept.html",
+				"/C/Users/hi/Desktop/이기윤/이기윤/web2019/site/04company/collection_sub.html",
+				"/C/Users/hi/Desktop/이기윤/이기윤/web2019/site/04company/contact.html",
+				"/C/Users/hi/Desktop/이기윤/이기윤/web2019/site/04company/aboutus.html",
+				"/C/Users/hi/Desktop/이기윤/이기윤/web2019/html/20191209_javascript/index.html",
+				"/C/Users/hi/Desktop/이기윤/이기윤/web2019/html/20191209_javascript/style.css",
+				"/C/Users/hi/Desktop/이기윤/이기윤/web2019/site/04company/04기업홈페이지/contact.html",
+				"/C/Users/hi/Desktop/이기윤/이기윤/web2019/html/20191209/style.css",
+				"/C/Users/hi/Desktop/이기윤/이기윤/web2019/html/20191209/index.html",
+				"/C/Users/hi/Desktop/이기윤/이기윤/web2019/html/20191209/css",
+				"/C/Users/hi/Desktop/이기윤/이기윤/web2019/html/20191206/css/style.css",
+				"/C/Users/hi/Desktop/이기윤/이기윤/web2019/html/20191206/index.html",
+				"/C/Users/hi/Desktop/이기윤/이기윤/web2019/html/20191206_javascript/index.html",
+				"/C/Users/hi/Desktop/이기윤/이기윤/web2019/site/04company/wow.js",
+				"/C/Users/hi/Desktop/이기윤/이기윤/web2019/site/04company/animate.css",
+				"/C/Users/hi/Desktop/이기윤/이기윤/web2019/site/04company/css/jquery.bxslider.css",
+				"/C/Users/hi/Desktop/이기윤/이기윤/web2019/html/20191204_responsive_menu/index.html",
+				"/C/Users/hi/Desktop/이기윤/이기윤/web2019/site/04company/index.html.html",
+				"/C/Users/hi/Desktop/이기윤/이기윤/web2019/site/04company/homepage4.html",
+				"/C/Users/hi/Desktop/이기윤/이기윤/web2019/html/20191202_media/index.html",
+				"/C/Users/hi/Desktop/이기윤/이기윤/web2019/html/20191202_media/img.html",
+				"/D/한성용/web2019/site/01himedia/images/visual_bg.jpg",
+				"/D/한성용/자료실/web/2019_webdesign-master/01.himedia/css/style.css",
+				"/D/한성용/web2019/site/01himedia/css/style.css",
+				"/D/한성용/web2019/site/01himedia/index.html",
+				"/D/한성용/자료실/web/2019_webdesign-master/01.himedia/index.html",
+				"/D/한성용/web2019/html/20191107_border/index.html",
+				"/D/한성용/sir/basic/tail.php",
+				"/D/한성용/sir/basic/index.php",
+				"/D/한성용/sir/basic/head.php"
+			],
+			"find":
+			{
+				"height": 27.0
+			},
+			"find_in_files":
+			{
+				"height": 0.0,
+				"where_history":
+				[
+				]
+			},
+			"find_state":
+			{
+				"case_sensitive": false,
+				"find_history":
+				[
+					"-",
+					"거실",
+					"4",
+					"01",
+					"ul",
+					"show",
+					"없애기",
+					"\">\n",
+					"trend",
+					"not",
+					"<div class=\"in_box\"></div>",
+					"nowDay",
+					"nowday",
+					"nowDay",
+					"nowday",
+					"nowDay",
+					"theDay",
+					"ch_day",
+					"nowday",
+					"span",
+					"width:",
+					"-",
+					"i",
+					"flex-grow",
+					"#flex_item",
+					"#flex_direct_01",
+					">\n",
+					"//javascript 객체 문법\n\n/*객체 구성*/\n\nvar cell_phone = new Object(); //cell_phone라는 변수를 새로운 객체로 생성하겠다는 것을 의미\n\ncell_phone.width = \"8cm\";\ncell_phone.height = \"14cm\";\ncell_phone.weight = \"200g\";\ncell_phone.color = \"classic blue\";\n\ndocument.write(cell_phone.width, \"<br>\");\ndocument.write(cell_phone.height, \"<br>\");\ndocument.write(cell_phone.weight, \"<br>\");\ndocument.write(cell_phone.color, \"<br>\");\n\n/*날짜 객체*/\nvar $t = new Date(); //연, 월, 일, 요일, 시간(시, 분, 초 등)의 날짜 정보를 받아오겠다는 의미\nvar nowYear = $t.getFullYear(); //연도정보\nvar nowMonth = $t.getMonth()+1; //1월은 시스템 데이터 값에서 \"0\"이라는 값을 가져옴\nvar nowDate = $t.getDate(); //일 정보 (서수개념-첫째날, 둘째날,...) 1일에 대한 데이터의 값은 '1'\nvar nowDay = $t.getDay(); //요일 정보(일:0~토:6)\nvar nowHours = $t.getHours(); //현재 시 정보\nvar nowMinutes = $t.getMinutes(); //현재 분 정보\nvar nowSeconds = $t.getSeconds(); //현재 초 정보\n\n\ndocument.write(\"현재 연도 : \"+nowYear, \"<br>\");\ndocument.write(\"현재 월 : \"+nowMonth, \"<br>\");\ndocument.write(\"현재 일 : \"+nowDate, \"<br>\");\nif(nowDay == 0){\n\tdocument.write(\"현재 요일 : 일요일\", \"<br>\");\n}else if(nowDay == 1){\n\tdocument.write(\"현재 요일 : 월요일\", \"<br>\");\n}else if(nowDay == 2){\n\tdocument.write(\"현재 요일 : 화요일\", \"<br>\");\n}else if(nowDay == 3){\n\tdocument.write(\"현재 요일 : 수요일\", \"<br>\");\n}else if(nowDay == 4){\n\tdocument.write(\"현재 요일 : 목요일\", \"<br>\");\n}else if(nowDay == 5){\n\tdocument.write(\"현재 요일 : 금요일\", \"<br>\");\n}else{\n\tdocument.write(\"현재 요일 : 토요일\", \"<br>\");\n}\n\ndocument.write(\"현재 시 : \"+nowHours, \"<br>\");\ndocument.write(\"현재 분 : \"+nowMinutes, \"<br>\");\ndocument.write(\"현재 초 : \"+nowSeconds, \"<br>\");\n\n\nvar mybirth = new Date(\"1992-09-30\");\nvar theYear = mybirth.getFullYear();\nvar theMonth = mybirth.getMonth();\nvar theDate = mybirth.getDate();\n\n\n",
+					"}",
+					"2",
+					"line-height",
+					"nav",
+					"div",
+					"ul",
+					"li",
+					">\n",
+					";",
+					"div",
+					"v",
+					"div ",
+					"div",
+					"div#section02_wrap",
+					"lnb",
+					":hover",
+					"ul",
+					";\n",
+					"box",
+					"div",
+					">\n"
+				],
+				"highlight": true,
+				"in_selection": false,
+				"preserve_case": false,
+				"regex": false,
+				"replace_history":
+				[
+				],
+				"reverse": false,
+				"show_context": true,
+				"use_buffer2": true,
+				"whole_word": false,
+				"wrap": true
+			},
+			"incremental_find":
+			{
+				"height": 27.0
+			},
+			"input":
+			{
+				"height": 221.0
+			},
+			"menu_visible": true,
+			"output.find_results":
+			{
+				"height": 0.0
+			},
+			"output.sftp":
+			{
+				"height": 209.0
+			},
+			"pinned_build_system": "",
+			"replace":
+			{
+				"height": 50.0
+			},
+			"save_all_on_build": true,
+			"select_file":
+			{
+				"height": 0.0,
+				"last_filter": "",
+				"selected_items":
+				[
+				],
+				"width": 0.0
+			},
+			"select_project":
+			{
+				"height": 0.0,
+				"last_filter": "",
+				"selected_items":
+				[
+				],
+				"width": 0.0
+			},
+			"select_symbol":
+			{
+				"height": 0.0,
+				"last_filter": "",
+				"selected_items":
+				[
+				],
+				"width": 0.0
+			},
+			"show_minimap": true,
+			"show_open_files": true,
+			"show_tabs": true,
+			"side_bar_visible": true,
+			"side_bar_width": 298.0,
+			"status_bar_visible": true,
+			"template_settings":
+			{
+			}
+		},
+		"new_window_width": 1644.0
+	},
+	"windows":
+	[
+		{
+			"auto_complete":
+			{
+				"selected_items":
+				[
+					[
+						"box-",
+						"box-sizing\tproperty"
+					],
+					[
+						"date",
+						"date_sort"
+					],
+					[
+						"span",
+						"column-span\tproperty"
+					],
+					[
+						"over",
+						"overflow-x\tproperty"
+					],
+					[
+						"inline",
+						"inline-block\tdisplay"
+					],
+					[
+						"last_",
+						"last_child"
+					],
+					[
+						"h",
+						"hidden\toverflow"
+					],
+					[
+						"bgi",
+						"background-image\tproperty"
+					],
+					[
+						"tr",
+						"transparent\tbackground"
+					],
+					[
+						"box-s",
+						"box-shadow\tproperty"
+					],
+					[
+						"modal-",
+						"modal-dialog"
+					],
+					[
+						"min-",
+						"min-width\tproperty"
+					],
+					[
+						"fun",
+						"function"
+					],
+					[
+						"nowm",
+						"nowMinutes"
+					],
+					[
+						"inner",
+						"innerWidth"
+					],
+					[
+						"text",
+						"text-align\tproperty"
+					],
+					[
+						"in",
+						"inline-block\tdisplay"
+					],
+					[
+						"dis",
+						"display\tproperty"
+					],
+					[
+						"table-",
+						"table-cell\tdisplay"
+					],
+					[
+						"fu",
+						"function"
+					],
+					[
+						"grid-t",
+						"grid-template-rows"
+					],
+					[
+						"grid-tem",
+						"grid-template-rows\tproperty"
+					],
+					[
+						"space",
+						"space-between\talign-content"
+					],
+					[
+						"row",
+						"row\tflex-direction"
+					],
+					[
+						"fw",
+						"flex-wrap\tproperty"
+					],
+					[
+						"inlin",
+						"inline-block\tdisplay"
+					],
+					[
+						"round",
+						"roundNum"
+					],
+					[
+						"inli",
+						"inline-block\tdisplay"
+					],
+					[
+						"num",
+						"number1"
+					],
+					[
+						"result",
+						"resultString"
+					],
+					[
+						"lo",
+						"Lorus"
+					],
+					[
+						"bor",
+						"border-bottom\tproperty"
+					],
+					[
+						"min",
+						"min-width\tproperty"
+					],
+					[
+						"text-ce",
+						"text-decoration\tproperty"
+					],
+					[
+						"box",
+						"box-sizing\tproperty"
+					],
+					[
+						"list",
+						"list-style\tproperty"
+					]
+				]
+			},
+			"buffers":
+			[
+			],
+			"build_system": "",
+			"build_system_choices":
+			[
+			],
+			"build_varint": "",
+			"command_palette":
+			{
+				"height": 0.0,
+				"last_filter": "",
+				"selected_items":
+				[
+					[
+						"Package Control: install",
+						"Package Control: Install Package"
+					],
+					[
+						"Package Control: istall",
+						"Package Control: Install Package"
+					],
+					[
+						"Package Control: ",
+						"Package Control: Install Package"
+					]
+				],
+				"width": 0.0
+			},
+			"console":
+			{
+				"height": 447.0,
+				"history":
+				[
+					"console",
+					"import urllib.request,os,hashlib; h = '6f4c264a24d933ce70df5dedcf1dcaee' + 'ebe013ee18cced0ef93d5f746d80ef60'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)"
+				]
+			},
+			"distraction_free":
+			{
+				"menu_visible": true,
+				"show_minimap": false,
+				"show_open_files": false,
+				"show_tabs": false,
+				"side_bar_visible": false,
+				"status_bar_visible": false
+			},
+			"expanded_folders":
+			[
+				"/D/한성용/web2019/html",
+				"/C/Users/hi/Desktop/이기윤",
+				"/C/Users/hi/Desktop/이기윤/이기윤",
+				"/C/Users/hi/Desktop/이기윤/이기윤/web2019",
+				"/C/Users/hi/Desktop/이기윤/이기윤/web2019/html",
+				"/C/Users/hi/Desktop/이기윤/이기윤/web2019/html/20200103_아코디언방식 영상",
+				"/C/Users/hi/Desktop/이기윤/이기윤/web2019/html/20200103_장사리전투",
+				"/C/Users/hi/Desktop/이기윤/이기윤/web2019/html/20200103_장사리전투/css",
+				"/C/Users/hi/Desktop/이기윤/이기윤/web2019/html/20200103_장사리전투/img",
+				"/C/Users/hi/Desktop/이기윤/이기윤/web2019/html/20200103_장사리전투/js"
+			],
+			"file_history":
+			[
+				"/C/Users/hi/Desktop/이기윤/이기윤/web2019/html/20200103_아코디언방식 영상/index.html",
+				"/C/Users/hi/Desktop/이기윤/이기윤/web2019/html/20200103_아코디언방식 영상/css/style.css",
+				"/C/Users/hi/Desktop/이기윤/이기윤/web2019/html/20200103_아코디언방식 영상/js/script.js",
+				"/C/Users/hi/Desktop/이기윤/이기윤/web2019/html/20200103/index.html",
+				"/C/Users/hi/Desktop/이기윤/이기윤/web2019/html/20200103_장사리전투/epilogue.html",
+				"/C/Users/hi/Desktop/이기윤/이기윤/web2019/html/20200103_장사리전투/index.html",
+				"/C/Users/hi/Desktop/이기윤/이기윤/web2019/html/20200103_장사리전투/js/script.js",
+				"/C/Users/hi/Desktop/이기윤/이기윤/web2019/html/20200103_장사리전투/css/characters.css",
+				"/C/Users/hi/Desktop/이기윤/이기윤/web2019/html/20200103_장사리전투/css/snapshot.css",
+				"/C/Users/hi/Desktop/이기윤/이기윤/web2019/html/20200103_장사리전투/css/snapshot_sub.css",
+				"/C/Users/hi/Desktop/이기윤/이기윤/web2019/html/20200103_장사리전투/css/epilogue.css",
+				"/C/Users/hi/Desktop/20200102-ajax/20200102-ajax/index.html",
+				"/C/Users/hi/Desktop/이기윤/이기윤/web2019/html/20200103_장사리전투/js/snapshot.js",
+				"/C/Users/hi/Desktop/이기윤/이기윤/web2019/html/20200103_장사리전투/snapshot_sub.html",
+				"/C/Users/hi/Desktop/이기윤/이기윤/web2019/html/20200103_장사리전투/snapshot.html",
+				"/C/Users/hi/Desktop/이기윤/이기윤/web2019/html/20200103_장사리전투/css/style.css",
+				"/C/Users/hi/Desktop/이기윤/이기윤/web2019/html/20200103_장사리전투/css/coverstory.css",
+				"/C/Users/hi/Desktop/이기윤/이기윤/web2019/html/20200103_장사리전투/characters.html",
+				"/C/Users/hi/Desktop/이기윤/이기윤/web2019/html/20200103_장사리전투/coverstory.html",
+				"/C/Users/hi/Desktop/이기윤/이기윤/web2019/site/05company_02/NewCenter.html",
+				"/C/Users/hi/Desktop/이기윤/이기윤/web2019/site/05company_02/Partnership.html",
+				"/C/Users/hi/Desktop/이기윤/이기윤/web2019/site/05company_02/css/style_sub.css",
+				"/C/Users/hi/Desktop/이기윤/이기윤/web2019/site/05company_02/css/common.css",
+				"/C/Users/hi/Desktop/이기윤/이기윤/web2019/site/05company_02/css/News.css",
+				"/C/Users/hi/Desktop/이기윤/이기윤/web2019/html/20191231_상품정렬하기/css/style.css",
+				"/C/Users/hi/Desktop/이기윤/이기윤/web2019/html/20191231_상품정렬하기/js/script.js",
+				"/C/Users/hi/Desktop/이기윤/이기윤/web2019/html/20191231_상품정렬하기/index.html",
+				"/C/Users/hi/Desktop/이기윤/이기윤/web2019/html/20191226-jQuery_effect/index.html",
+				"/C/Users/hi/Desktop/이기윤/이기윤/web2019/html/20191226-jQuery_effect/css/style.css",
+				"/C/Users/hi/Desktop/이기윤/이기윤/web2019/html/20191226-jQuery_effect/js/script.js",
+				"/C/Users/hi/Desktop/이기윤/이기윤/web2019/site/pinterest/work.html",
+				"/C/Users/hi/Desktop/이기윤/이기윤/web2019/site/pinterest/css/work.css",
+				"/C/Users/hi/Desktop/이기윤/이기윤/web2019/site/pinterest/js/work.js",
+				"/C/Users/hi/Desktop/Portfolio/Portfolio/index.html",
+				"/C/Users/hi/Desktop/이기윤/이기윤/web2019/html/20191227_jQuery실습문제01/js/script.js",
+				"/C/Users/hi/Desktop/이기윤/이기윤/web2019/html/20191227_팝업창/index.html",
+				"/C/Users/hi/Desktop/이기윤/이기윤/web2019/html/20191227_팝업창/css/style.css",
+				"/C/Users/hi/Desktop/이기윤/이기윤/web2019/html/20191227_팝업창/js/script.js",
+				"/C/Users/hi/Desktop/이기윤/이기윤/web2019/html/20191227_jQuery실습문제01/css/style.css",
+				"/C/Users/hi/Desktop/이기윤/이기윤/web2019/html/20191220_jQuery/index.html",
+				"/C/Users/hi/Desktop/이기윤/이기윤/web2019/html/20191227_jQuery실습문제01/index.html",
+				"/C/Users/hi/Desktop/이기윤/이기윤/web2019/html/20191227_jQuery실습문제02/css/style.css",
+				"/C/Users/hi/Desktop/이기윤/이기윤/web2019/html/20191227_jQuery실습문제02/js/script.js",
+				"/C/Users/hi/Desktop/이기윤/이기윤/web2019/html/20191227_jQuery실습문제02/index.html",
+				"/C/Users/hi/Desktop/이기윤/이기윤/web2019/html/20191226_jQuery실습문제/css/style.css",
+				"/C/Users/hi/Desktop/이기윤/이기윤/web2019/html/20191226_jQuery실습문제/index.html",
+				"/C/Users/hi/Desktop/이기윤/이기윤/web2019/html/20191226_jQuery실습문제/js/script.js",
+				"/C/Users/hi/Desktop/이기윤/이기윤/web2019/html/20191220_jQuery/js/script.js",
+				"/C/Users/hi/Desktop/이기윤/이기윤/web2019/site/05company_02/index.html",
+				"/C/Users/hi/Desktop/이기윤/이기윤/web2019/site/05company_02/css/style.css",
+				"/C/Users/hi/Desktop/이기윤/이기윤/web2019/html/20191224-jQuery-Event/js/script.js",
+				"/C/Users/hi/Desktop/이기윤/이기윤/web2019/html/20191224-jQuery-Event/index.html",
+				"/C/Users/hi/Desktop/이기윤/이기윤/web2019/html/20191213_Flex/css/style.css",
+				"/C/Users/hi/Desktop/이기윤/이기윤/web2019/html/20191224-jQuery-Event/css/style.css",
+				"/C/Users/hi/Desktop/이기윤/이기윤/web2019/html/20191218_event/js/script.js",
+				"/C/Users/hi/Desktop/이기윤/이기윤/web2019/html/20191218_event/index.html",
+				"/C/Users/hi/Desktop/이기윤/이기윤/web2019/html/20191223_bootstrap-Site/js/script.js",
+				"/C/Users/hi/Desktop/이기윤/이기윤/web2019/html/20191223_bootstrap-Site/index.html",
+				"/C/Users/hi/Desktop/이기윤/이기윤/web2019/html/20191223_bootstrap-Site/css/style.css",
+				"/C/Users/hi/Desktop/이기윤/이기윤/web2019/html/20191220_jQuery/css/style.css",
+				"/C/Users/hi/Desktop/이기윤/이기윤/web2019/html/20191218_Bootstrap/js/script.js",
+				"/C/Users/hi/Desktop/이기윤/이기윤/web2019/html/20191218_Bootstrap/css/style.css",
+				"/C/Users/hi/Desktop/이기윤/이기윤/web2019/html/20191218_Bootstrap/index.html",
+				"/C/Users/hi/Desktop/이기윤/이기윤/web2019/html/20191218_Bootstrap/scrollspy.html",
+				"/C/Users/hi/Desktop/이기윤/이기윤/web2019/html/20191213_portfolio-site2/css/res.css",
+				"/C/Users/hi/Desktop/이기윤/이기윤/web2019/site/05company_02/js/script.js",
+				"/C/Users/hi/Desktop/이기윤/이기윤/web2019/html/20191218_실습문제/js/script.js",
+				"/C/Users/hi/Desktop/이기윤/이기윤/web2019/html/20191216_함수/index.html",
+				"/C/Users/hi/Desktop/이기윤/이기윤/web2019/html/20191218_실습문제/index.html",
+				"/C/Users/hi/Desktop/이기윤/이기윤/web2019/html/20191218_실습문제/css/style.css",
+				"/C/Users/hi/Desktop/이기윤/이기윤/web2019/html/20191218_event/css/style.css",
+				"/C/Users/hi/Desktop/이기윤/이기윤/web2019/html/20191213_portfolio-site2/css/style.css",
+				"/C/Users/hi/Desktop/이기윤/이기윤/web2019/html/20191213_portfolio-site2/index.html",
+				"/C/Users/hi/Desktop/이기윤/이기윤/web2019/html/20191213_portfolio-site2/fonts-source/poiret-one/SIL Open Font License.txt",
+				"/C/Users/hi/Desktop/이기윤/이기윤/web2019/html/20191118_animation/transform.html",
+				"/C/Users/hi/Desktop/이기윤/이기윤/web2019/html/20191216_Grid/css/style.css",
+				"/C/Users/hi/Desktop/이기윤/이기윤/web2019/html/20191216_Grid/index.html",
+				"/C/Users/hi/Desktop/이기윤/이기윤/web2019/html/20191216_함수/js/script.js",
+				"/C/Users/hi/Desktop/이기윤/이기윤/web2019/html/20191211_javascript기초문법/index.html",
+				"/C/Users/hi/Desktop/이기윤/이기윤/web2019/html/20191211_portfolio-site/css/style.css",
+				"/C/Users/hi/Desktop/이기윤/이기윤/web2019/html/20191213_Flex/index.html",
+				"/C/Users/hi/Desktop/이기윤/이기윤/web2019/html/20191216/index.html",
+				"/C/Users/hi/Desktop/이기윤/이기윤/web2019/html/20191216/css/style.css",
+				"/C/Users/hi/Desktop/이기윤/이기윤/web2019/html/20191216/js/script.js",
+				"/C/Users/hi/Desktop/20191211-portfolio-웹사이트 제작/20191211-portfolio-웹사이트 제작/index.html",
+				"/C/Users/hi/Desktop/이기윤/이기윤/web2019/html/20191211_javascript기초문법/css/style.css",
+				"/C/Users/hi/Desktop/이기윤/이기윤/web2019/html/20191213_DOM/index.html",
+				"/C/Users/hi/Desktop/이기윤/이기윤/web2019/html/20191213_DOM/js/script.js",
+				"/C/Users/hi/Desktop/이기윤/이기윤/web2019/html/20191213_BOM/popup.html",
+				"/C/Users/hi/Desktop/이기윤/이기윤/web2019/html/20191213_BOM/js/script.js",
+				"/C/Users/hi/Desktop/이기윤/이기윤/web2019/html/20191213_BOM/index.html",
+				"/C/Users/hi/Desktop/이기윤/이기윤/web2019/html/20191213_BOM/js/js/script.js",
+				"/C/Users/hi/Desktop/이기윤/이기윤/web2019/html/20191209_javascript/js/script.js",
+				"/C/Users/hi/Desktop/이기윤/이기윤/web2019/html/20191211_javascript기초문법/js/script.js",
+				"/C/Users/hi/Desktop/이기윤/이기윤/web2019/html/20191211_displayblock,inlineblock비교/index.html",
+				"/C/Users/hi/Desktop/이기윤/이기윤/web2019/html/20191211_portfolio-site/index.html",
+				"/C/Users/hi/Desktop/이기윤/이기윤/web2019/html/20191209_javascript/css/style.css",
+				"/C/Users/hi/Desktop/이기윤/이기윤/web2019/html/20191211_javascript기초문법/fonts/transfonter.org-20191211-035901/stylesheet.css",
+				"/C/Users/hi/Desktop/이기윤/이기윤/web2019/site/04company/css/style.css",
+				"/C/Users/hi/Desktop/이기윤/이기윤/web2019/site/04company/index.html",
+				"/C/Users/hi/Desktop/이기윤/이기윤/web2019/site/04company/news.html",
+				"/C/Users/hi/Desktop/이기윤/이기윤/web2019/site/04company/brandconcept.html",
+				"/C/Users/hi/Desktop/이기윤/이기윤/web2019/site/04company/collection_sub.html",
+				"/C/Users/hi/Desktop/이기윤/이기윤/web2019/site/04company/contact.html",
+				"/C/Users/hi/Desktop/이기윤/이기윤/web2019/site/04company/aboutus.html",
+				"/C/Users/hi/Desktop/이기윤/이기윤/web2019/html/20191209_javascript/index.html",
+				"/C/Users/hi/Desktop/이기윤/이기윤/web2019/html/20191209_javascript/style.css",
+				"/C/Users/hi/Desktop/이기윤/이기윤/web2019/site/04company/04기업홈페이지/contact.html",
+				"/C/Users/hi/Desktop/이기윤/이기윤/web2019/html/20191209/style.css",
+				"/C/Users/hi/Desktop/이기윤/이기윤/web2019/html/20191209/index.html",
+				"/C/Users/hi/Desktop/이기윤/이기윤/web2019/html/20191209/css",
+				"/C/Users/hi/Desktop/이기윤/이기윤/web2019/html/20191206/css/style.css",
+				"/C/Users/hi/Desktop/이기윤/이기윤/web2019/html/20191206/index.html",
+				"/C/Users/hi/Desktop/이기윤/이기윤/web2019/html/20191206_javascript/index.html",
+				"/C/Users/hi/Desktop/이기윤/이기윤/web2019/site/04company/wow.js",
+				"/C/Users/hi/Desktop/이기윤/이기윤/web2019/site/04company/animate.css",
+				"/C/Users/hi/Desktop/이기윤/이기윤/web2019/site/04company/css/jquery.bxslider.css",
+				"/C/Users/hi/Desktop/이기윤/이기윤/web2019/html/20191204_responsive_menu/index.html",
+				"/C/Users/hi/Desktop/이기윤/이기윤/web2019/site/04company/index.html.html",
+				"/C/Users/hi/Desktop/이기윤/이기윤/web2019/site/04company/homepage4.html",
+				"/C/Users/hi/Desktop/이기윤/이기윤/web2019/html/20191202_media/index.html",
+				"/C/Users/hi/Desktop/이기윤/이기윤/web2019/html/20191202_media/img.html",
+				"/D/한성용/web2019/site/01himedia/images/visual_bg.jpg",
+				"/D/한성용/자료실/web/2019_webdesign-master/01.himedia/css/style.css",
+				"/D/한성용/web2019/site/01himedia/css/style.css",
+				"/D/한성용/web2019/site/01himedia/index.html",
+				"/D/한성용/자료실/web/2019_webdesign-master/01.himedia/index.html",
+				"/D/한성용/web2019/html/20191107_border/index.html"
+			],
+			"find":
+			{
+				"height": 27.0
+			},
+			"find_in_files":
+			{
+				"height": 0.0,
+				"where_history":
+				[
+				]
+			},
+			"find_state":
+			{
+				"case_sensitive": false,
+				"find_history":
+				[
+					"-",
+					"거실",
+					"4",
+					"01",
+					"ul",
+					"show",
+					"없애기",
+					"\">\n",
+					"trend",
+					"not",
+					"<div class=\"in_box\"></div>",
+					"nowDay",
+					"nowday",
+					"nowDay",
+					"nowday",
+					"nowDay",
+					"theDay",
+					"ch_day",
+					"nowday",
+					"span",
+					"width:",
+					"-",
+					"i",
+					"flex-grow",
+					"#flex_item",
+					"#flex_direct_01",
+					">\n",
+					"//javascript 객체 문법\n\n/*객체 구성*/\n\nvar cell_phone = new Object(); //cell_phone라는 변수를 새로운 객체로 생성하겠다는 것을 의미\n\ncell_phone.width = \"8cm\";\ncell_phone.height = \"14cm\";\ncell_phone.weight = \"200g\";\ncell_phone.color = \"classic blue\";\n\ndocument.write(cell_phone.width, \"<br>\");\ndocument.write(cell_phone.height, \"<br>\");\ndocument.write(cell_phone.weight, \"<br>\");\ndocument.write(cell_phone.color, \"<br>\");\n\n/*날짜 객체*/\nvar $t = new Date(); //연, 월, 일, 요일, 시간(시, 분, 초 등)의 날짜 정보를 받아오겠다는 의미\nvar nowYear = $t.getFullYear(); //연도정보\nvar nowMonth = $t.getMonth()+1; //1월은 시스템 데이터 값에서 \"0\"이라는 값을 가져옴\nvar nowDate = $t.getDate(); //일 정보 (서수개념-첫째날, 둘째날,...) 1일에 대한 데이터의 값은 '1'\nvar nowDay = $t.getDay(); //요일 정보(일:0~토:6)\nvar nowHours = $t.getHours(); //현재 시 정보\nvar nowMinutes = $t.getMinutes(); //현재 분 정보\nvar nowSeconds = $t.getSeconds(); //현재 초 정보\n\n\ndocument.write(\"현재 연도 : \"+nowYear, \"<br>\");\ndocument.write(\"현재 월 : \"+nowMonth, \"<br>\");\ndocument.write(\"현재 일 : \"+nowDate, \"<br>\");\nif(nowDay == 0){\n\tdocument.write(\"현재 요일 : 일요일\", \"<br>\");\n}else if(nowDay == 1){\n\tdocument.write(\"현재 요일 : 월요일\", \"<br>\");\n}else if(nowDay == 2){\n\tdocument.write(\"현재 요일 : 화요일\", \"<br>\");\n}else if(nowDay == 3){\n\tdocument.write(\"현재 요일 : 수요일\", \"<br>\");\n}else if(nowDay == 4){\n\tdocument.write(\"현재 요일 : 목요일\", \"<br>\");\n}else if(nowDay == 5){\n\tdocument.write(\"현재 요일 : 금요일\", \"<br>\");\n}else{\n\tdocument.write(\"현재 요일 : 토요일\", \"<br>\");\n}\n\ndocument.write(\"현재 시 : \"+nowHours, \"<br>\");\ndocument.write(\"현재 분 : \"+nowMinutes, \"<br>\");\ndocument.write(\"현재 초 : \"+nowSeconds, \"<br>\");\n\n\nvar mybirth = new Date(\"1992-09-30\");\nvar theYear = mybirth.getFullYear();\nvar theMonth = mybirth.getMonth();\nvar theDate = mybirth.getDate();\n\n\n",
+					"}",
+					"2",
+					"line-height",
+					"nav",
+					"div",
+					"ul",
+					"li",
+					">\n",
+					";",
+					"div",
+					"v",
+					"div ",
+					"div",
+					"div#section02_wrap",
+					"lnb",
+					":hover",
+					"ul",
+					";\n",
+					"box",
+					"div",
+					">\n"
+				],
+				"highlight": true,
+				"in_selection": false,
+				"preserve_case": false,
+				"regex": false,
+				"replace_history":
+				[
+				],
+				"reverse": false,
+				"show_context": true,
+				"use_buffer2": true,
+				"whole_word": false,
+				"wrap": true
+			},
+			"folders":
+			[
+				{
+					"path": "D:\\한성용\\web2019\\html"
+				},
+				{
+					"path": "D:\\한성용\\sir"
+				},
+				{
+					"path": "D:\\한성용\\web2019\\site"
+				},
+				{
+					"path": "D:\\한성용\\web2019\\php"
+				},
+				{
+					"path": "C:\\Users\\hi\\Desktop\\이기윤"
+				}
+			],
+			"groups":
+			[
+				{
+					"sheets":
+					[
+					]
+				},
+				{
+					"sheets":
+					[
+					]
+				}
+			],
+			"incremental_find":
+			{
+				"height": 27.0
+			},
+			"input":
+			{
+				"height": 221.0
+			},
+			"layout":
+			{
+				"cells":
+				[
+					[
+						0,
+						0,
+						1,
+						1
+					],
+					[
+						0,
+						1,
+						1,
+						2
+					]
+				],
+				"cols":
+				[
+					0.0,
+					1.0
+				],
+				"rows":
+				[
+					0.0,
+					0.5,
+					1.0
+				]
+			},
+			"menu_visible": true,
+			"output.find_results":
+			{
+				"height": 0.0
+			},
+			"output.sftp":
+			{
+				"height": 209.0
+			},
+			"pinned_build_system": "",
+			"position": "0,0,1,-32000,-32000,-1,-1,976,188,81,1848",
+			"project": "",
+			"replace":
+			{
+				"height": 50.0
+			},
+			"save_all_on_build": true,
+			"select_file":
+			{
+				"height": 0.0,
+				"last_filter": "",
+				"selected_items":
+				[
+				],
+				"width": 0.0
+			},
+			"select_project":
+			{
+				"height": 0.0,
+				"last_filter": "",
+				"selected_items":
+				[
+				],
+				"width": 0.0
+			},
+			"select_symbol":
+			{
+				"height": 0.0,
+				"last_filter": "",
+				"selected_items":
+				[
+				],
+				"width": 0.0
+			},
+			"selected_group": 0,
+			"settings":
+			{
+			},
+			"show_minimap": true,
+			"show_open_files": true,
+			"show_tabs": true,
+			"side_bar_visible": true,
+			"side_bar_width": 298.0,
+			"status_bar_visible": true,
+			"template_settings":
+			{
+			},
+			"window_id": 1,
+			"workspace_name": ""
+		}
+	],
+	"workspaces":
+	{
+		"recent_workspaces":
+		[
+		]
+	}
+}

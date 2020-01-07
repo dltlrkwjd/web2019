@@ -47,7 +47,9 @@ article{
 	padding: 20px 20px;
 	border: 1px solid #7398ab;
 	border-radius: 5px;
+	margin-bottom: 40px;
 }
+.faq-box:last-child{margin-bottom: 80px;}
 
 .faq-box h2{
 	color: #6d92a5;

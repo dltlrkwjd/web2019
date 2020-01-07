@@ -6,3 +6,109 @@ ul, ol{margin: 0; padding: 0; list-style: none;}
 a{text-decoration: none;}
 
 .active{background: #ffaaff;}
+
+#test_01{
+	width: 600px;
+	height: 60px;
+	margin: 0 auto;
+}
+#test_01 ul{
+	width: 100%;
+	height: 100%;
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+	flex-direction: row;
+
+}
+#test_01 ul li{
+	width: 100%;
+	height: auto;
+	text-align: center;
+	line-height: 60px;
+}
+#test_01 ul li a{
+	font-size: 16px;
+	color:#fff;
+	font-weight:bold;
+}
+
+#test_01 ul .rgba{
+	width: 100%;
+	background: rgba(0,0,0,0.5);
+	transition: 0.5s
+}
+#test_01 ul .rgba:hover{background: rgba(150,150,0,0.75);}
+
+#test_02{
+	width: 1200px;
+	height: 380px;
+	margin: 0 auto;
+}
+#test_02 .tab_btn{
+	width: 100%;
+	height: 60px;
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+	flex-direction: row;
+	text-align: center;
+	margin: 0 auto;
+	position: relative;
+}
+#test_02 .tab_btn>div{width: 100%;height: auto; color: #000; line-height: 60px;}
+#test_02 .tab_btn>div.activeBtn{color: #fff;}
+
+.bg-bk{width: 33.33%; height: 60px; background: #000; position: absolute; left: 0; top: 0; z-index: -1;}
+.tab_box{
+	width: 100%;
+	height: 320px;
+}
+.tab_box .tab_01{
+	width: 100%;
+	height: 100%;
+}
+
+
+.tab_box .tab_02{
+	width: 100%;
+	height: 100%;
+}
+
+
+.tab_box .tab_03{
+	width: 100%;
+	height: 100%;
+}
+
+
+.tab_box>div{
+	display: none;
+}
+.tab_box>div.activeBox{	
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+	flex-direction: row;
+}
+.img{width: 50%; height: 100%; background-size: cover;}
+.context{width: 50%; height: 100%;display: table;}
+.table_center{display: table-cell;text-align: center;vertical-align: middle;padding: 10px;}
+.title{font-size: 20px; color: #555;}
+.sub{font-size: 16px; color: #999; line-height: 10px;}
+.text{font-size: 14px; color: #777;}
+
+#test_03{width: 1000px;height: 600px; margin: 0 auto; position: relative;}
+#test_03 .slider{width: 100%;height: 100%;}
+#test_03 .slider>li{width: 100%;height: 100%; display: none;}
+#test_03 .slider>li.act_img{display: block;}
+.pager{width: 100%;position: absolute; bottom: 10px;left: 0; width: 100%;}
+.pager li{width: 30px;height: 8px;background: #999; display: inline-block; transition: background 0.5s, width 0.5s;}
+.pager li.act_btn{background: #ffaaaa; width: 50px;}
+.slide_num{text-align: center;}
